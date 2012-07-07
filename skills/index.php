@@ -15,6 +15,7 @@
 <li>Applied Econometrics</li>
 <li>Health Economics</li>
 <li>Labor Economics</li>
+<li>Data Analysis</li>
 </ul>
 <h2>Software and Computer Skills</h2>
 <ul>
@@ -36,8 +37,8 @@
 <ul>
 <li>HTML and CSS</li>
 <li>Javascript</li>
-<li><a href="http://jquery.com/">JQuery</a></li>
-<li>Objective-C (iOS)</li></ul>
+<li><a href="http://jquery.com/">jQuery</a></li>
+<li>Objective-C (iOS development)</li></ul>
 
 <h2>Teaching</h2>
 <ul>

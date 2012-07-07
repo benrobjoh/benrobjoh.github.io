@@ -24,7 +24,7 @@
 <ul><li>Blended industry data with Arch loss experience to select Loss Development Factors, set up Arch LDF Library, presented findings to Corporate Actuarial group</li>
 </ul></ul>
 <h2>Hempfield Area Recreation Commission, Landisville, PA</h2>
-<ul><li>National Junior Tennis League Instructor, summer 2004-2008, 2010, 2011</li>
+<ul><li>National Junior Tennis League Instructor, summer 2004-2008, 2010-2012</li>
 <ul><li>Taught tennis to children ranging from age five to fifteen; managed an assistant instructor; constructed each day's lesson with age-appropriate tennis activities</li></ul>
 </ul>
 <h2>Department of Mathematical Sciences, Elizabethtown College</h2>
