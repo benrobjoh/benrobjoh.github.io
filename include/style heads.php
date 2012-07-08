@@ -1,4 +1,4 @@
-<link href='http://fonts.googleapis.com/css?family=Gudea' rel='stylesheet' type='text/css'>
+<!-- <link href='http://fonts.googleapis.com/css?family=Gudea' rel='stylesheet' type='text/css'> -->
 <meta name="author" content="Ben Johnson"/>
 <link rel="stylesheet" type="text/css" href="http://benrobjoh.com/css/style.css"/>
 <link rel="stylesheet" type="text/css" href="http://benrobjoh.com/css/navbar.css"/>
