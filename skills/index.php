@@ -38,7 +38,8 @@
 <li>HTML and CSS</li>
 <li>Javascript</li>
 <li><a href="http://jquery.com/">jQuery</a></li>
-<li>Objective-C (iOS development)</li></ul>
+<li>Objective-C (iOS development)</li>
+<li><a href="http://git-scm.com/">Git</a></li></ul>
 
 <h2>Teaching</h2>
 <ul>
