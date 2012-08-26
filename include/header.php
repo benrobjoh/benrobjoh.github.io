@@ -1,4 +1,3 @@
-<a href="http://benrobjoh.com"><img src="http://benrobjoh.com/include/banner.png" alt="Banner" width="728" height="90" class="center"/></a>
 <nav>
 <ul id="navbar">
 	<li><a href="/">Home</a></li>
@@ -15,3 +14,5 @@
 	<li><a href="/resume/Johnson%20Resume.pdf" target="_blank" onClick = "_gaq.push(['_trackEvent', 'Downloads', 'PDF', 'Resume']);">R&eacute;sum&eacute;</a></li>
 	</ul>
 </nav>
+
+<a href="http://benrobjoh.com"><img src="http://benrobjoh.com/include/banner.png" alt="Banner" width="728" height="90" class="center"/></a>
