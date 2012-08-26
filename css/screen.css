@@ -58,6 +58,7 @@ body {
   background-size: cover;*/
   background-color: #571803;
   font-family: 'GudeaRegular', 'Helvetica', sans-serif;
+  font-size: 1em;
   color: #858310;
   margin-left: 10%;
   margin-right: 10%;
@@ -72,20 +73,20 @@ body {
   display: block; }
 
 .huge {
-  font-size: 36pt; }
+  font-size: 3em; }
 
 .big {
-  font-size: 18pt; }
+  font-size: 1.5em; }
 
 .medium {
-  font-size: 16pt; }
+  font-size: 1em; }
 
 p {
   text-align: justify;
   word-break: normal;
   word-spacing: normal;
   line-height: normal;
-  font-size: 12pt; }
+  font-size: 1em; }
 
 a {
   color: #858310;

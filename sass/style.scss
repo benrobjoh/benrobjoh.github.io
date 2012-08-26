@@ -19,11 +19,11 @@ $font-size: 1em;
 }
 
 body {
-	
 	/*background:url('http://benrobjoh.com/include/background.jpg') no-repeat center center fixed;
 	background-size: cover;*/
 	background-color: $background-color;
 	font-family: 'GudeaRegular', 'Helvetica', sans-serif;
+	font-size: $font-size;
 	color: $background-text-color;
 	margin-left: 10%;
 	margin-right: 10%;
@@ -41,15 +41,15 @@ body {
 }
 
 .huge {
-	font-size: 36pt;
+	font-size: $font-size * 3;
 }
 
 .big {
-	font-size: 18pt;
+	font-size: 1.5 * $font-size;
 }
 
 .medium {
-	font-size: 16pt;
+	font-size: $font-size;
 }
 
 p {
@@ -57,11 +57,11 @@ p {
 	word-break: normal;
 	word-spacing: normal;
 	line-height: normal;
-	font-size: 12pt;
+	font-size: $font-size;
 }
 
 a {
-	color:#858310;
+	color:$background-text-color;
 	dispay:block;
 	&:hover {
 		color:#BAB714;
@@ -115,16 +115,16 @@ img {
 	display: none;
 	border-radius: .5em;
 	border-style: solid;
-	border-color: #571803;
+	border-color: $background-color;
 	border-width: .25em;
 	background: #034257;
-	color: #858310;
+	color: $background-text-color;
 	font-size: .95em;
 	padding: 1em;
 	}
 	
 .abstractlink {
-	color: #571803;
+	color: $background-color;
 	text-decoration: underline;
 	cursor: pointer;
 	}
