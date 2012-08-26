@@ -8,37 +8,44 @@ August 26, 2012 */
 	height: 2em;
 	background-color:#034257;
 	border-radius: .5em;
+	
+	li {
+		list-style:none;
+		float:left;
+		margin-left: auto;
+		margin-right: auto;
+		a {
+			display: block;
+			padding: 3px 8px;
+			color: #FFFFFF;
+			text-decoration: none;
+		}
+		ul {
+			display: none; 
+			width: 10em;
+			background-color: #034257;
+		}
+		&:hover {
+			ul {
+				display: block;
+				position: absolute;
+				margin: 0;
+				padding: 0;
+			}
+			li {
+				float: none;
+				a {
+					background-color: #034257;
+					border-bottom: 1px solid #FFFFF;
+					color: #FFFFFF;
+				}
+			}
+		}
+		li a:hover {
+			background-color: #858310;	
+		}
 	}
-#navbar li {
-	list-style:none;
-	float:left;
-	margin-left: auto;
-	margin-right: auto;
-	}
-#navbar li a {
-	display: block;
-	padding: 3px 8px;
-	color: #FFFFFF;
-	text-decoration: none;
-	}
-#navbar li ul {
-	display: none; 
-	width: 10em;
-	background-color: #034257;
-	}
-#navbar li:hover ul {
-	display: block;
-	position: absolute;
-	margin: 0;
-	padding: 0; }
-#navbar li:hover li {
-	float: none; }
-#navbar li:hover li a {
-	background-color: #034257;
-	border-bottom: 1px solid #FFFFF;
-	color: #FFFFFF; }
-#navbar li li a:hover {
-	background-color: #858310; }
+}
 	
 img.center {
 	display: block;   margin-left: auto;   margin-right: auto;
