@@ -15,4 +15,6 @@
 	</ul>
 </nav>
 
-<a href="http://benrobjoh.com"><img src="http://benrobjoh.com/include/banner.png" alt="Banner" width="728" height="90" class="center"/></a>
+<div id="banner">
+	<a href="http://benrobjoh.com"><img src="http://benrobjoh.com/include/banner.png" alt="Banner" width="728" height="90" class="center"/></a>
+</div>
