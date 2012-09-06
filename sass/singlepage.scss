@@ -1,0 +1,23 @@
+/* benrobjoh
+Styles by Ben Johnson
+2012
+*/
+// Imports
+@import "compass/utilities/general/clearfix";
+
+// Variables
+
+$phone: 480px;
+$tablet: 767px;
+$desktop: 980px;
+ 
+//Mixins
+@mixin text-cutout {
+	text-shadow: -.1rem -.2rem .15rem black;
+}
+// Fonts
+
+
+html {
+	font-size: 62.5%;
+}
