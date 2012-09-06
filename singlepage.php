@@ -290,6 +290,9 @@
 		<section id="contact">
 		
 		</section>
+		<footer>
+			Copyright &copy; 2012 Ben Johnson
+		</footer>
 	</div>
 	
 	<script>
