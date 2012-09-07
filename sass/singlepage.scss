@@ -3,6 +3,7 @@ Styles by Ben Johnson
 2012
 */
 // Imports
+@import "compass/reset";
 @import "compass/utilities/general/clearfix";
 
 // Variables
@@ -21,3 +22,8 @@ $desktop: 980px;
 html {
 	font-size: 62.5%;
 }
+
+body {
+	//font-family: 
+}
+
