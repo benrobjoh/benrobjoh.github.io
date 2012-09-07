@@ -12,7 +12,7 @@
 </head>
 
 <body>
-	<header>
+	<header id="banner">
 		<h1>Ben Johnson</h1>
 		<nav>
 			<ul>
@@ -33,6 +33,7 @@
 		</section>
 		
 		<section id="education">
+			<h1>Education</h1>
 			<div class="nav">
 				<ul>
 					<li><a href="#unc">UNC-Chapel Hill</a></li>
@@ -42,9 +43,9 @@
 			</div>
 			
 			<div id="unc">
-				<h1>University of North Carolina at Chapel Hill</h1>
-				<h2><b>MS Economics</b>, December 2011</h2>
-				<h2>Academics</h2>
+				<h2>University of North Carolina at Chapel Hill</h2>
+				<h3><b>MS Economics</b>, December 2011</h3>
+				<h4>Academics</h4>
 				
 				<ul>
 					<li>Master's Thesis: <em><a href="http://benrobjoh.com/education/unc/Student%20Debt.pdf" onClick = "_gaq.push(['_trackEvent', 'Downloads', 'PDF', 'Student Debt: Who Borrows?']);">Student Debt: Who Borrows?</a></em>, <span id="debtabstractlink" class="abstractlink" onClick = "_gaq.push(['_trackEvent', 'View', 'Abstract', 'Student Debt: Who Borrows?']);">Abstract</span></li>
@@ -65,14 +66,14 @@
 					</p>
 				</ul>
 				
-				<h2>Teaching</h2>
+				<h4>Teaching</h4>
 				<ul>
 					<li><b>Econ 410 Intermediate Microeconomic Theory</b>, spring 2012: ran weekly review sessions to answer student questions, graded homework and exams for a 500-student class</li>
 					<li><b>Econ 101 Introduction to Economics</b>, fall 2011: Taught three recitation sections, held office hours, created exam questions, graded exams, facilitated logistics associated with running a 400-student class</li>
 					<li><b>Econ 460 Economic Development</b>, spring 2011: Graded homework</li>
 					<li><b>Econ 423 Financial Markets</b>, fall 2010: Graded homework and exams, graded weekly reports associated with stock market investment project</li>
 				</ul>
-				<h2>Courses</h2>
+				<h4>Courses</h4>
 				<ul>
 					<li>Econ 700 Quantitative Techniques</li>
 					<li>Econ 710 Advanced Microeconomic Theory I: Choice theory</li>
@@ -93,16 +94,16 @@
 			</div>
 			
 			<div id="etown">
-				<h1 class=>Elizabethtown College</h1>
-				<h2><b>BS Mathematics</b>, Summa Cum Laude, May 2010</h2>
+				<h2 class=>Elizabethtown College</h2>
+				<h3><b>BS Mathematics</b>, Summa Cum Laude, May 2010</h3>
 				<h3>Second Major in Economics and Minor in Spanish</h3>
-				<h2>Academics</h2>
+				<h4>Academics</h4>
 				<ul>
 					<li>Thesis for Honors in the Discipline of Economics: <em><a href="http://benrobjoh.com/education/etown/Economics%20of%20College%20Tuition%20and%20Finacial%20Aid.pdf" onClick = "_gaq.push(['_trackEvent', 'Downloads', 'PDF', 'Economics of College Tuition and Financial Aid']);">The Economics of College Tuition and Financial Aid</a></em>, <span id="tuitionabstractlink" class="abstractlink" onClick = "_gaq.push(['_trackEvent', 'View', 'Abstract', 'Economics of College Tuition and Financial Aid']);">Abstract</span></li>
 					<p id="tuitionabstract" class="abstract">This paper investigates the economics of college tuition and financial aid. In the United States, colleges set their tuition rates before each academic year. Most students, however, do not pay the full tuition rate, with 62.2% of full-time undergraduates receiving some type of financial aid in 2007-2008. Colleges price discriminate, attempting to figure out how much each particular student would be willing to pay, and charging that rate. College financial aid offices meet the difference between the full tuition rate and what the student is deemed able to pay with institutional loans, government-subsidized loans, and grants. This type of aid is based on financial need. The goal of providing financial aid to students is to ensure that lower-income students have an opportunity to attend college. In addition to this goal, colleges use price discrimination as a way to increase their revenue. This paper will explore the economic theory behind price discrimination and how the behavior of the college fits that of a profit-maximizing firm.  This paper will analyze what a student could expect to pay as a percentage of total income at different income levels and the effects of the financial aid system on the labor market and retirement saving.</p>
 				</ul>
 				<img src="Etown%20Graduation.jpg" alt="Etown Graduation Photo" class="floatRight"/>
-				<h2>Presentations</h2>
+				<h5>Presentations</h5>
 				<ul>
 					<li>Elizabethtown College Scholarship Day
 						<ul>
@@ -123,14 +124,14 @@
 					</li>
 				</ul>
 
-				<h2>Activities</h2>
+				<h5>Activities</h5>
 				<ul>
 					<li>Elizabethtown College Honors Program</li>
 					<li>Symphonic Band Oboist</li>
 					<li>College Fed Challenge (2009)</li>
 				</ul>
 				
-				<h2>Honors</h2>
+				<h5>Honors</h5>
 				<ul>
 					<li>Elizabethtown College Presidential Scholarship Recipient</li>
 					<li>Elizabethtown College Scholar</li>
@@ -138,7 +139,7 @@
 					<li>Pi Mu Epsilon mathematics honor society member</li>
 					<li>Delta Mu Delta business honor society member</li>
 				</ul>
-				<h2>Courses</h2>
+				<h5>Courses</h5>
 				<ul>
 					<li>Mathematics
 						<ul>
@@ -184,16 +185,16 @@
 			</div>
 			
 			<div id="hempfield">
-				<h1>Hempfield High School</h1>
-				<h2>Graduated June, 2007</h2>
-				<h2>Activities</h2>
+				<h2>Hempfield High School</h2>
+				<h3>Graduated June, 2007</h3>
+				<h4>Activities</h4>
 				<ul>
 					<li>Varsity tennis (four years)</li>
 					<li>Concert Band and Orchestra Oboist</li>
 					<li>Varsity Quiz Bowl</li>
 					<li>Editor-in-Chief of school newspaper</li>
 				</ul>
-				<h2>Honors</h2>
+				<h4>Honors</h4>
 				<ul>
 					<li>National Merit Finalist, 2006</li>
 					<li>Graduated in top ten of class of over 550</li>

@@ -75,3 +75,77 @@ html {
 
 body {
   font-family: "Gudea"; }
+
+header#banner {
+  font-family: "Gudea", sans-serif;
+  margin-top: 0;
+  background: #14ce39;
+  overflow: hidden;
+  *zoom: 1; }
+  header#banner h1 {
+    font-size: 8rem;
+    color: #f9ee14;
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 4rem;
+    text-shadow: -0.1rem -0.2rem 0.15rem black; }
+    @media (max-width: 480px) {
+      header#banner h1 {
+        font-size: 3rem; } }
+  header#banner nav {
+    border-bottom: .2rem inset black; }
+    header#banner nav ul {
+      margin: 0 auto;
+      text-align: center;
+      background: #14ce39; }
+      header#banner nav ul li {
+        display: inline-block;
+        list-style: none;
+        vertical-align: middle;
+        padding-top: 1rem;
+        padding-bottom: 1rem; }
+        header#banner nav ul li a {
+          color: #f9ee14;
+          font-size: 1.8rem;
+          text-decoration: none;
+          padding-left: 3rem;
+          padding-right: 3rem; }
+          header#banner nav ul li a:hover {
+            color: #fdfbc2; }
+
+#content {
+  margin-top: 0;
+  padding-top: 4rem;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-bottom: 4rem;
+  background: #f0f07d; }
+  #content section {
+    margin-bottom: 3rem; }
+  #content h1 {
+    font-size: 3rem;
+    padding-bottom: 1rem; }
+  #content h2 {
+    font-size: 2.5rem;
+    padding-bottom: 1rem; }
+  #content h3 {
+    font-size: 2.25rem;
+    padding-bottom: .75rem; }
+  #content h4 {
+    font-size: 2rem;
+    padding-bottom: .75rem; }
+  #content h5 {
+    font-size: 1.75rem;
+    padding-bottom: .5rem; }
+  #content p {
+    padding-top: 1rem;
+    font-size: 1.6rem;
+    line-height: 2rem; }
+  #content a {
+    color: #0fa02c; }
+  #content ul li {
+    list-style: disc;
+    font-size: 1.6rem; }
+  #content ul ul li {
+    list-style: circle;
+    list-style-position: inside; }

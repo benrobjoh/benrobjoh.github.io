@@ -8,6 +8,9 @@ Styles by Ben Johnson
 
 // Variables
 $font: 'Gudea';
+$banner-background-color: #14ce39;
+$banner-text-color: #f9ee14;
+$content-background-color: rgba(240, 240, 125, 1.0);
 
 $phone: 480px;
 $tablet: 767px;
@@ -26,5 +29,100 @@ html {
 
 body {
 	font-family: $font;
+}
+
+header#banner {
+	font-family: $font, sans-serif;
+	margin-top:0; 
+	background: $banner-background-color;
+	@include clearfix;
+	h1 {
+		font-size: 8rem;
+		color: $banner-text-color;
+		text-align: center;
+		padding-top: 5rem;
+		padding-bottom: 4rem;
+		@include text-cutout;
+		@media (max-width: $phone) {
+			font-size:3rem;
+		}
+	}
+	nav {
+		border-bottom: .2rem inset black;
+		ul {
+			margin: 0 auto;
+			text-align: center;
+			background: $banner-background-color;
+			li {
+				display: inline-block;
+				list-style: none;
+				vertical-align: middle;
+				padding-top: 1rem;
+				padding-bottom: 1rem;
+				a {
+					color: $banner-text-color;
+					font-size: 1.8rem;
+					text-decoration: none; 
+					padding-left: 3rem;
+					padding-right: 3rem;
+					//display: none;
+					&:hover {
+						color:lighten($banner-text-color, 35%);
+					}
+				}
+			}
+		}
+	}
+}
+
+#content {
+	margin-top: 0;
+	padding-top: 4rem;
+	padding-left: 15%;
+	padding-right: 15%;
+	padding-bottom: 4rem;
+	background: $content-background-color;
+	section {
+		margin-bottom: 3rem;
+	}
+	h1 {
+		font-size: 3rem;
+		padding-bottom: 1rem;
+	}
+	h2 {
+		font-size: 2.5rem;
+		padding-bottom: 1rem;
+		
+	}
+	h3 {
+		font-size: 2.25rem; 
+		padding-bottom: .75rem;
+	}
+	h4 {
+		font-size: 2rem;
+		padding-bottom: .75rem;
+	}
+	h5 {
+		font-size: 1.75rem;
+		padding-bottom: .5rem;
+	}
+	p {
+		padding-top: 1rem;
+		font-size: 1.6rem;
+		line-height: 2rem;
+	}
+	a {
+		color: darken($banner-background-color, 10%);
+	}
+	ul {
+		li {
+			list-style: disc;
+			font-size: 1.6rem;
+		}
+		ul li {
+			list-style: circle;
+			list-style-position: inside;
+		}
+	}
 }
 
