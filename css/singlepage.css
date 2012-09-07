@@ -79,25 +79,30 @@ body {
 header#banner {
   font-family: "Gudea", sans-serif;
   margin-top: 0;
-  background: #14ce39;
-  overflow: hidden;
-  *zoom: 1; }
+  text-align: center;
+  background: #14ce39; }
   header#banner h1 {
     font-size: 8rem;
     color: #f9ee14;
     text-align: center;
     padding-top: 5rem;
-    padding-bottom: 4rem;
+    padding-bottom: 2rem;
     text-shadow: -0.1rem -0.2rem 0.15rem black; }
     @media (max-width: 480px) {
       header#banner h1 {
         font-size: 3rem; } }
+  header#banner h2 {
+    font-size: 4rem;
+    text-align: center;
+    padding-bottom: 4rem;
+    color: white;
+    text-shadow: -0.1rem -0.2rem 0.15rem black; }
   header#banner nav {
     border-bottom: .2rem inset black; }
     header#banner nav ul {
       margin: 0 auto;
       text-align: center;
-      background: #14ce39; }
+      background: #0d8826; }
       header#banner nav ul li {
         display: inline-block;
         list-style: none;
@@ -109,7 +114,8 @@ header#banner {
           font-size: 1.8rem;
           text-decoration: none;
           padding-left: 3rem;
-          padding-right: 3rem; }
+          padding-right: 3rem;
+          display: none; }
           header#banner nav ul li a:hover {
             color: #fdfbc2; }
 
@@ -123,7 +129,15 @@ header#banner {
   #content ::selection {
     background: #0fa02c; }
   #content section {
-    margin-bottom: 3rem; }
+    margin-bottom: 2rem;
+    border-top-width: .15rem;
+    border-top-color: #0d8826;
+    border-top-style: dashed;
+    padding-top: 2rem; }
+    #content section:first-of-type {
+      border: none; }
+    #content section h1:first-of-type {
+      text-align: center; }
   #content .nav ul {
     margin: 0 auto;
     text-align: center;
@@ -143,19 +157,19 @@ header#banner {
         #content .nav ul li a:hover {
           color: #fdfbc2; }
   #content h1 {
-    font-size: 3rem;
+    font-size: 4rem;
     padding-bottom: 1rem; }
   #content h2 {
-    font-size: 2.5rem;
+    font-size: 3.4rem;
     padding-bottom: 1rem; }
   #content h3 {
-    font-size: 2.25rem;
+    font-size: 2.89rem;
     padding-bottom: .75rem; }
   #content h4 {
-    font-size: 2rem;
+    font-size: 2.4565rem;
     padding-bottom: .75rem; }
   #content h5 {
-    font-size: 1.75rem;
+    font-size: 2.08802rem;
     padding-bottom: .5rem; }
   #content p {
     padding-top: 1rem;
@@ -172,3 +186,13 @@ header#banner {
   #content ul ul li {
     list-style: circle;
     list-style-position: inside; }
+  #content img {
+    margin: 1.5rem; }
+    #content img#ben {
+      float: right;
+      border-radius: 12px;
+      box-shadow: 4px 4px 4px black; }
+  #content .abstractlink {
+    cursor: pointer;
+    color: #db5151;
+    text-decoration: underline; }

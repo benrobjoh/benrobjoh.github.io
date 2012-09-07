@@ -14,9 +14,11 @@
 <body>
 	<header id="banner">
 		<h1>Ben Johnson</h1>
+		<h2>iOS Developer</h2>
 		<nav>
 			<ul>
 				<li><a href="#about">About</a></li>
+				<li><a href="#projects">Projects</a></li>
 				<li><a href="#education">Education</a></li>
 				<li><a href="#work">Work Experience</a></li>
 				<li><a href="#skills">Skills</a></li>
@@ -27,9 +29,15 @@
 	</header>
 	<div id="content">
 		<section id="about">
-			<img src="Ben%20Johnson.jpg" alt="Ben Johnson Photo" height="278" width="500" />
+			<img id ="ben" src="Ben%20Johnson.jpg" alt="Ben Johnson Photo" height="139" width="250" />
 			<p>Ben Johnson, born November 9, 1988, grew up in Lancaster, PA. He graduated from Hempfield High School in June 2007. At Hempfield he earned four varsity letters in tennis, played oboe in the concert band, and was co-editor-in-chief of the newspaper. He completed his undergraduate studies at Elizabethtown College in three years, graduating with a BS in mathematics with a second major in economics and a minor in Spanish. After passing actuarial exam FM (financial mathematics), Ben interned with the actuarial department of Arch Insurance in New York, NY during the summer of 2009.</p>
 	<p>Upon graduation from Elizabethtown College, Ben began graduate school at the University of North Carolina at Chapel Hill. He graduated with an MS in economics in December 2011. At UNC, he studied applied microeconomics and wrote a Master's paper titled <a href="http://benrobjoh.com/education/unc/Student%20Debt.pdf" onClick = "_gaq.push(['_trackEvent', 'Downloads', 'PDF', 'Student Debt: Who Borrows?']);">"Student Debt: Who Borrows?"</a>. He took courses in health economics, labor economics, empirical industrial organization, and econometrics.</p>
+			<p>He released his first iPhone app, <a href="http://click.linksynergy.com/fs-bin/stat?id=sXVjBlpBuDI&offerid=146261&type=3&subid=0&tmpid=1826&RD_PARM1=http%253A%252F%252Fitunes.apple.com%252Fus%252Fapp%252Fbaseliner%252Fid554343726%253Fmt%253D8%2526uo%253D4%2526partnerId%253D30" target="itunes_store">Baseliner,</a> in August 2012. Baseliner keeps a record of the user's tennis matches. Users can add an opponent, score, date, and location to each match. Users can keep track of their wins and losses against each particular opponent. The app interfaces with Twitter to allow users to tweet the results of their matches and with Dropbox to allow users to export their information from Baseliner into Dropbox.</p>
+		</section>
+		
+		<section id="projects">
+			<h1>Projects</h1>
+			<h2>Baseliner</h2>
 		</section>
 		
 		<section id="education">
@@ -102,7 +110,7 @@
 					<li>Thesis for Honors in the Discipline of Economics: <em><a href="http://benrobjoh.com/education/etown/Economics%20of%20College%20Tuition%20and%20Finacial%20Aid.pdf" onClick = "_gaq.push(['_trackEvent', 'Downloads', 'PDF', 'Economics of College Tuition and Financial Aid']);">The Economics of College Tuition and Financial Aid</a></em>, <span id="tuitionabstractlink" class="abstractlink" onClick = "_gaq.push(['_trackEvent', 'View', 'Abstract', 'Economics of College Tuition and Financial Aid']);">Abstract</span></li>
 					<p id="tuitionabstract" class="abstract">This paper investigates the economics of college tuition and financial aid. In the United States, colleges set their tuition rates before each academic year. Most students, however, do not pay the full tuition rate, with 62.2% of full-time undergraduates receiving some type of financial aid in 2007-2008. Colleges price discriminate, attempting to figure out how much each particular student would be willing to pay, and charging that rate. College financial aid offices meet the difference between the full tuition rate and what the student is deemed able to pay with institutional loans, government-subsidized loans, and grants. This type of aid is based on financial need. The goal of providing financial aid to students is to ensure that lower-income students have an opportunity to attend college. In addition to this goal, colleges use price discrimination as a way to increase their revenue. This paper will explore the economic theory behind price discrimination and how the behavior of the college fits that of a profit-maximizing firm.  This paper will analyze what a student could expect to pay as a percentage of total income at different income levels and the effects of the financial aid system on the labor market and retirement saving.</p>
 				</ul>
-				<img src="Etown%20Graduation.jpg" alt="Etown Graduation Photo" class="floatRight"/>
+				<img src="Etown%20Graduation.jpg" alt="Etown Graduation Photo" />
 				<h5>Presentations</h5>
 				<ul>
 					<li>Elizabethtown College Scholarship Day
@@ -298,7 +306,7 @@
 	
 	<script>
 		$(document).ready(function() {
-			$('#banner ul').hide().slideDown(600, function() {
+			$('#banner ul').hide().slideDown(600, 'linear', function() {
 				$('#banner ul li a').fadeIn(600);
 			});
 			var $nav = $('header#banner nav');
@@ -313,6 +321,7 @@
 					$nav.css('position', '').css('top', '').css('width', '');
 				}
 			});
+			$('.abstract').hide();
 			$('#debtabstractlink').click(function() {
 				$('#debtabstract').slideToggle(1000)
 			});

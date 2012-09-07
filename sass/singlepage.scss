@@ -12,6 +12,13 @@ $banner-background-color: #14ce39;
 $banner-text-color: #f9ee14;
 $content-background-color: rgba(240, 240, 125, 1.0);
 
+$h1-size: 4rem;
+$h2-size: $h1-size * .85;
+$h3-size: $h2-size * .85;
+$h4-size: $h3-size * .85;
+$h5-size: $h4-size * .85;
+
+
 $phone: 480px;
 $tablet: 767px;
 $desktop: 980px;
@@ -34,25 +41,32 @@ body {
 header#banner {
 	font-family: $font, sans-serif;
 	margin-top:0; 
+	text-align: center;
 	background: $banner-background-color;
-	@include clearfix;
 	h1 {
 		font-size: 8rem;
 		color: $banner-text-color;
 		text-align: center;
 		padding-top: 5rem;
-		padding-bottom: 4rem;
+		padding-bottom: 2rem;
 		@include text-cutout;
 		@media (max-width: $phone) {
 			font-size:3rem;
 		}
+	}
+	h2 {
+		font-size: 4rem;
+		text-align: center;
+		padding-bottom: 4rem;
+		color: white;
+		@include text-cutout;
 	}
 	nav {
 		border-bottom: .2rem inset black;
 		ul {
 			margin: 0 auto;
 			text-align: center;
-			background: $banner-background-color;
+			background: darken($banner-background-color, 15%);
 			li {
 				display: inline-block;
 				list-style: none;
@@ -65,7 +79,7 @@ header#banner {
 					text-decoration: none; 
 					padding-left: 3rem;
 					padding-right: 3rem;
-					//display: none;
+					display: none;
 					&:hover {
 						color:lighten($banner-text-color, 35%);
 					}
@@ -86,7 +100,17 @@ header#banner {
 		background: darken($banner-background-color, 10%); 
 	}
 	section {
-		margin-bottom: 3rem;
+		margin-bottom: 2rem;
+		border-top-width: .15rem;
+		border-top-color:darken($banner-background-color, 15%);
+		border-top-style: dashed;
+		padding-top: 2rem;
+		&:first-of-type {
+			border: none;
+		}
+		h1:first-of-type {
+			text-align: center;
+		}
 	}
 	.nav {
 		ul {
@@ -113,24 +137,24 @@ header#banner {
 		}
 	}
 	h1 {
-		font-size: 3rem;
+		font-size: $h1-size;
 		padding-bottom: 1rem;
 	}
 	h2 {
-		font-size: 2.5rem;
+		font-size: $h2-size;
 		padding-bottom: 1rem;
 		
 	}
 	h3 {
-		font-size: 2.25rem; 
+		font-size: $h3-size; 
 		padding-bottom: .75rem;
 	}
 	h4 {
-		font-size: 2rem;
+		font-size: $h4-size;
 		padding-bottom: .75rem;
 	}
 	h5 {
-		font-size: 1.75rem;
+		font-size: $h5-size;
 		padding-bottom: .5rem;
 	}
 	p {
@@ -155,6 +179,19 @@ header#banner {
 			list-style: circle;
 			list-style-position: inside;
 		}
+	}
+	img {
+		margin: 1.5rem;
+		&#ben {
+			float: right;
+			border-radius: 12px;
+			box-shadow: 4px 4px 4px black;
+		}
+	}
+	.abstractlink {
+		cursor: pointer;
+		color: #db5151;
+		text-decoration: underline;
 	}
 }
 
