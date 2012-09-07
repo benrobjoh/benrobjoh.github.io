@@ -120,8 +120,28 @@ header#banner {
   padding-right: 15%;
   padding-bottom: 4rem;
   background: #f0f07d; }
+  #content ::selection {
+    background: #0fa02c; }
   #content section {
     margin-bottom: 3rem; }
+  #content .nav ul {
+    margin: 0 auto;
+    text-align: center;
+    background: #14ce39; }
+    #content .nav ul li {
+      display: inline-block;
+      list-style: none;
+      vertical-align: middle;
+      padding-top: 1rem;
+      padding-bottom: 1rem; }
+      #content .nav ul li a {
+        color: #f9ee14;
+        font-size: 1.8rem;
+        text-decoration: none;
+        padding-left: 3rem;
+        padding-right: 3rem; }
+        #content .nav ul li a:hover {
+          color: #fdfbc2; }
   #content h1 {
     font-size: 3rem;
     padding-bottom: 1rem; }
@@ -143,9 +163,12 @@ header#banner {
     line-height: 2rem; }
   #content a {
     color: #0fa02c; }
+    #content a::selection {
+      color: #f9ee14; }
   #content ul li {
     list-style: disc;
-    font-size: 1.6rem; }
+    font-size: 1.6rem;
+    line-height: 2rem; }
   #content ul ul li {
     list-style: circle;
     list-style-position: inside; }

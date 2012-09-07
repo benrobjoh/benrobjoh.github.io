@@ -82,8 +82,35 @@ header#banner {
 	padding-right: 15%;
 	padding-bottom: 4rem;
 	background: $content-background-color;
+	::selection {
+		background: darken($banner-background-color, 10%); 
+	}
 	section {
 		margin-bottom: 3rem;
+	}
+	.nav {
+		ul {
+			margin: 0 auto;
+			text-align: center;
+			background: $banner-background-color;
+			li {
+				display: inline-block;
+				list-style: none;
+				vertical-align: middle;
+				padding-top: 1rem;
+				padding-bottom: 1rem;
+				a {
+					color: $banner-text-color;
+					font-size: 1.8rem;
+					text-decoration: none; 
+					padding-left: 3rem;
+					padding-right: 3rem;
+					&:hover {
+						color:lighten($banner-text-color, 35%);
+					}
+				}
+			}
+		}
 	}
 	h1 {
 		font-size: 3rem;
@@ -113,11 +140,16 @@ header#banner {
 	}
 	a {
 		color: darken($banner-background-color, 10%);
+		&::selection {
+			color: $banner-text-color;
+			
+		}
 	}
 	ul {
 		li {
 			list-style: disc;
 			font-size: 1.6rem;
+			line-height: 2rem;
 		}
 		ul li {
 			list-style: circle;
