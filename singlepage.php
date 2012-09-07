@@ -4,7 +4,7 @@
 	<link href="http://benrobjoh.com/css/singlepage.css" media="screen, projection" rel="stylesheet" type="text/css" />
 	<link rel="shortcut icon" href="http://benrobjoh.com/include/favicon.ico"/>
 	<link rel="apple-touch-icon" href="http://benrobjoh.com/include/iosicon.png"/>
-	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
 	<title>benrobjoh</title>
 	<meta name="description" content="Ben Johnson" />
 	<meta name="keywords" content="" />
@@ -297,7 +297,22 @@
 	</div>
 	
 	<script>
-		$(document.ready(function() {
+		$(document).ready(function() {
+			$('#banner ul').hide().slideDown(600, function() {
+				$('#banner ul li a').fadeIn(600);
+			});
+			var $nav = $('header#banner nav');
+				var off = $nav.offset();
+				var wide = $nav.width();
+			$(window).scroll(function() {
+				var top = $(window).scrollTop();
+				if (top - off.top > 0) {
+					$nav.css('position', 'fixed').css('top', '0').css('width', wide);
+				}
+				else {
+					$nav.css('position', '').css('top', '').css('width', '');
+				}
+			});
 			$('#debtabstractlink').click(function() {
 				$('#debtabstract').slideToggle(1000)
 			});
