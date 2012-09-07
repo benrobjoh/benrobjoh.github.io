@@ -7,6 +7,7 @@ Styles by Ben Johnson
 @import "compass/utilities/general/clearfix";
 
 // Variables
+$font: 'Gudea';
 
 $phone: 480px;
 $tablet: 767px;
@@ -17,13 +18,13 @@ $desktop: 980px;
 	text-shadow: -.1rem -.2rem .15rem black;
 }
 // Fonts
-
+@import "fonts.scss";
 
 html {
 	font-size: 62.5%;
 }
 
 body {
-	//font-family: 
+	font-family: $font;
 }
 
