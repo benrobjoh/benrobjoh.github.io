@@ -5,14 +5,14 @@
 	<link rel="shortcut icon" href="http://benrobjoh.com/include/favicon.ico"/>
 	<link rel="apple-touch-icon" href="http://benrobjoh.com/include/iosicon.png"/>
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
-	<title>benrobjoh</title>
+	<title>Ben Johnson: Lancaster, PA iOS Developer – benrobjoh</title>
 	<meta name="description" content="Ben Johnson" />
 	<meta name="keywords" content="" />
 	<meta charset="UTF-8" />
 </head>
 
 <body>
-	<header id="banner">
+	<header role="banner">
 		<h1>Ben Johnson</h1>
 		<h2>iOS Developer</h2>
 		<nav>
@@ -29,27 +29,30 @@
 	</header>
 	<div id="content">
 		<section id="about">
-			<img id ="ben" src="Ben%20Johnson.jpg" alt="Ben Johnson Photo" height="139" width="250" />
+			<img src="Ben%20Johnson.jpg" alt="Ben Johnson Photo" height="139" width="250" />
 			<p>Ben Johnson, born November 9, 1988, grew up in Lancaster, PA. He graduated from Hempfield High School in June 2007. At Hempfield he earned four varsity letters in tennis, played oboe in the concert band, and was co-editor-in-chief of the newspaper. He completed his undergraduate studies at Elizabethtown College in three years, graduating with a BS in mathematics with a second major in economics and a minor in Spanish. After passing actuarial exam FM (financial mathematics), Ben interned with the actuarial department of Arch Insurance in New York, NY during the summer of 2009.</p>
 	<p>Upon graduation from Elizabethtown College, Ben began graduate school at the University of North Carolina at Chapel Hill. He graduated with an MS in economics in December 2011. At UNC, he studied applied microeconomics and wrote a Master's paper titled <a href="http://benrobjoh.com/education/unc/Student%20Debt.pdf" onClick = "_gaq.push(['_trackEvent', 'Downloads', 'PDF', 'Student Debt: Who Borrows?']);">"Student Debt: Who Borrows?"</a>. He took courses in health economics, labor economics, empirical industrial organization, and econometrics.</p>
-			<p>He released his first iPhone app, <a href="http://click.linksynergy.com/fs-bin/stat?id=sXVjBlpBuDI&offerid=146261&type=3&subid=0&tmpid=1826&RD_PARM1=http%253A%252F%252Fitunes.apple.com%252Fus%252Fapp%252Fbaseliner%252Fid554343726%253Fmt%253D8%2526uo%253D4%2526partnerId%253D30" target="itunes_store">Baseliner,</a> in August 2012. Baseliner keeps a record of the user's tennis matches. Users can add an opponent, score, date, and location to each match. Users can keep track of their wins and losses against each particular opponent. The app interfaces with Twitter to allow users to tweet the results of their matches and with Dropbox to allow users to export their information from Baseliner into Dropbox.</p>
+			<p>He released his first iPhone app, <a href="http://click.linksynergy.com/fs-bin/stat?id=sXVjBlpBuDI&offerid=146261&type=3&subid=0&tmpid=1826&RD_PARM1=http%253A%252F%252Fitunes.apple.com%252Fus%252Fapp%252Fbaseliner%252Fid554343726%253Fmt%253D8%2526uo%253D4%2526partnerId%253D30" target="itunes_store">Baseliner</a>, in August 2012. Baseliner keeps a record of the user's tennis matches. Users can add an opponent, score, date, and location to each match. Users can keep track of their wins and losses against each particular opponent. The app interfaces with Twitter to allow users to tweet the results of their matches and with Dropbox to allow users to export their information from Baseliner into Dropbox.</p>
 		</section>
 		
 		<section id="projects">
-			<h1>Projects</h1>
-			<h2>Baseliner</h2>
+			<header>
+				<h1>Projects</h1>
+			</header>
+				<h2>Baseliner</h2>
 		</section>
 		
 		<section id="education">
-			<h1>Education</h1>
-			<div class="nav">
-				<ul>
-					<li><a href="#unc">UNC-Chapel Hill</a></li>
-					<li><a href="#etown">Elizabethtown College</a></li>
-					<li><a href="#hempfield">Hempfield</a></li>
-				</ul>
-			</div>
-			
+			<header>
+				<h1>Education</h1>
+				<div class="nav">
+					<ul>
+						<li><a href="#unc">UNC-Chapel Hill</a></li>
+						<li><a href="#etown">Elizabethtown College</a></li>
+						<li><a href="#hempfield">Hempfield</a></li>
+					</ul>
+				</div>
+			</header>
 			<div id="unc">
 				<h2>University of North Carolina at Chapel Hill</h2>
 				<h3><b>MS Economics</b>, December 2011</h3>
@@ -73,7 +76,7 @@
 						Colleges in the United States price discriminate based on student characteristics such as ability and income. This paper develops a model of college pricing in which colleges maximize their prestige. Several policy experiments are considered in which the college loses the ability to price discriminate at all or to price discriminate with respect to income.
 					</p>
 				</ul>
-				
+				<img src="education/unc/UNC%20Graduation.jpg" alt="UNC Graduation Photo" height="230" width="375"/>
 				<h4>Teaching</h4>
 				<ul>
 					<li><b>Econ 410 Intermediate Microeconomic Theory</b>, spring 2012: ran weekly review sessions to answer student questions, graded homework and exams for a 500-student class</li>
@@ -98,7 +101,6 @@
 					<li>Econ 890 Quantitative Methods</li>
 					<li>Econ 890 Empirical Industrial Organization: Survey of empirical industrial organization literature, MATLAB</li>
 				</ul>
-				<img src="UNC%20Graduation.jpg" alt="UNC Graduation Photo" height="460" width="750"/>
 			</div>
 			
 			<div id="etown">
@@ -213,7 +215,9 @@
 		</section>
 		
 		<section id="work">
-			<h1>Work Experience</h1>
+			<header>
+				<h1>Work Experience</h1>
+			</header>
 			<h2>Economics Department, University of North Carolina at Chapel Hill</h2>
 			<ul>
 				<li>Teaching Assistant, 2010-2012
@@ -252,7 +256,9 @@
 		</section>
 		
 		<section id="skills">
-			<h1>Skills</h1>
+			<header>
+				<h1>Skills</h1>
+			</header>
 			<h2>Economics</h2>
 			<ul>
 				<li>Applied Econometrics</li>
@@ -292,12 +298,10 @@
 			</ul>		
 		</section>
 		
-		<section id="resume">
-		
-		</section>
-		
 		<section id="contact">
-		
+			<header>
+				<h1>Contact</h1>
+			</header>
 		</section>
 		<footer>
 			Copyright &copy; 2012 Ben Johnson
@@ -306,10 +310,10 @@
 	
 	<script>
 		$(document).ready(function() {
-			$('#banner ul').hide().slideDown(600, 'linear', function() {
-				$('#banner ul li a').fadeIn(600);
+			$("header[role='banner'] ul").hide().slideDown(600, 'linear', function() {
+				$("[role='banner'] ul li a").fadeIn(600);
 			});
-			var $nav = $('header#banner nav');
+			var $nav = $("header[role='banner'] nav");
 				var off = $nav.offset();
 				var wide = $nav.width();
 			$(window).scroll(function() {
