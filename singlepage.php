@@ -22,7 +22,7 @@
 				<li><a href="#education">Education</a></li>
 				<li><a href="#work">Work Experience</a></li>
 				<li><a href="#skills">Skills</a></li>
-				<li><a href="#resume">R&eacute;sum&eacute;</a></li>
+				<li><a href="/resume/Johnson%20Resume.pdf" target="_blank" onClick = "_gaq.push(['_trackEvent', 'Downloads', 'PDF', 'Resume']);">R&eacute;sum&eacute;</a></li>
 				<li><a href="#contact">Contact</a></li>
 			</ul>
 		</nav>
@@ -53,11 +53,11 @@
 					</ul>
 				</div>
 			</header>
-			<div id="unc">
+			<div id="unc" class="school">
 				<h2>University of North Carolina at Chapel Hill</h2>
 				<h3><b>MS Economics</b>, December 2011</h3>
 				<h4>Academics</h4>
-				
+				<img src="education/unc/UNC%20Graduation.jpg" alt="UNC Graduation Photo" height="230" width="375"/>
 				<ul>
 					<li>Master's Thesis: <em><a href="http://benrobjoh.com/education/unc/Student%20Debt.pdf" onClick = "_gaq.push(['_trackEvent', 'Downloads', 'PDF', 'Student Debt: Who Borrows?']);">Student Debt: Who Borrows?</a></em>, <span id="debtabstractlink" class="abstractlink" onClick = "_gaq.push(['_trackEvent', 'View', 'Abstract', 'Student Debt: Who Borrows?']);">Abstract</span></li>
 					<p id="debtabstract" class="abstract">
@@ -76,7 +76,7 @@
 						Colleges in the United States price discriminate based on student characteristics such as ability and income. This paper develops a model of college pricing in which colleges maximize their prestige. Several policy experiments are considered in which the college loses the ability to price discriminate at all or to price discriminate with respect to income.
 					</p>
 				</ul>
-				<img src="education/unc/UNC%20Graduation.jpg" alt="UNC Graduation Photo" height="230" width="375"/>
+	
 				<h4>Teaching</h4>
 				<ul>
 					<li><b>Econ 410 Intermediate Microeconomic Theory</b>, spring 2012: ran weekly review sessions to answer student questions, graded homework and exams for a 500-student class</li>
@@ -85,25 +85,27 @@
 					<li><b>Econ 423 Financial Markets</b>, fall 2010: Graded homework and exams, graded weekly reports associated with stock market investment project</li>
 				</ul>
 				<h4>Courses</h4>
-				<ul>
-					<li>Econ 700 Quantitative Techniques</li>
-					<li>Econ 710 Advanced Microeconomic Theory I: Choice theory</li>
-					<li>Econ 711 Advanced Microeconomic Theory II: Game theory</li>
-					<li>Econ 720 Advanced Macroeconomic Theory I: Growth theory</li>
-					<li>Econ 721 Advanced Macroeconomic Theory II: Monetary macroeconomics</li>
-					<li>Econ 770 Introduction to Econometrics: Probability</li>
-					<li>Econ 771 Econometrics: Applied econometrics, data analysis, Stata</li>
-					<li>Econ 850 Health Economics: Structural health models</li>
-					<li>Econ 870 Advanced Econometrics: Theoretical econometrics, MATLAB</li>
-					<li>Econ 871 Microeconometrics: Applied econometrics, data analysis</li>
-					<li>Econ 880 Labor Economics I: Reduced-form labor economics, data analysis, Stata</li>
-					<li>Econ 881 Labor Economics II: Structural labor economics, model estimation in MATLAB</li>
-					<li>Econ 890 Quantitative Methods</li>
-					<li>Econ 890 Empirical Industrial Organization: Survey of empirical industrial organization literature, MATLAB</li>
-				</ul>
+				<div class="column">
+					<ul>
+						<li>Econ 700 Quantitative Techniques</li>
+						<li>Econ 710 Advanced Microeconomic Theory I: Choice theory</li>
+						<li>Econ 711 Advanced Microeconomic Theory II: Game theory</li>
+						<li>Econ 720 Advanced Macroeconomic Theory I: Growth theory</li>
+						<li>Econ 721 Advanced Macroeconomic Theory II: Monetary macroeconomics</li>
+						<li>Econ 770 Introduction to Econometrics: Probability</li>
+						<li>Econ 771 Econometrics: Applied econometrics, data analysis, Stata</li>
+						<li>Econ 850 Health Economics: Structural health models</li>
+						<li>Econ 870 Advanced Econometrics: Theoretical econometrics, MATLAB</li>
+						<li>Econ 871 Microeconometrics: Applied econometrics, data analysis</li>
+						<li>Econ 880 Labor Economics I: Reduced-form labor economics, data analysis, Stata</li>
+						<li>Econ 881 Labor Economics II: Structural labor economics, model estimation in MATLAB</li>
+						<li>Econ 890 Quantitative Methods</li>
+						<li>Econ 890 Empirical Industrial Organization: Survey of empirical industrial organization literature, MATLAB</li>
+					</ul>
+				</div>
 			</div>
 			
-			<div id="etown">
+			<div id="etown" class="school">
 				<h2 class=>Elizabethtown College</h2>
 				<h3><b>BS Mathematics</b>, Summa Cum Laude, May 2010</h3>
 				<h3>Second Major in Economics and Minor in Spanish</h3>
@@ -112,7 +114,7 @@
 					<li>Thesis for Honors in the Discipline of Economics: <em><a href="http://benrobjoh.com/education/etown/Economics%20of%20College%20Tuition%20and%20Finacial%20Aid.pdf" onClick = "_gaq.push(['_trackEvent', 'Downloads', 'PDF', 'Economics of College Tuition and Financial Aid']);">The Economics of College Tuition and Financial Aid</a></em>, <span id="tuitionabstractlink" class="abstractlink" onClick = "_gaq.push(['_trackEvent', 'View', 'Abstract', 'Economics of College Tuition and Financial Aid']);">Abstract</span></li>
 					<p id="tuitionabstract" class="abstract">This paper investigates the economics of college tuition and financial aid. In the United States, colleges set their tuition rates before each academic year. Most students, however, do not pay the full tuition rate, with 62.2% of full-time undergraduates receiving some type of financial aid in 2007-2008. Colleges price discriminate, attempting to figure out how much each particular student would be willing to pay, and charging that rate. College financial aid offices meet the difference between the full tuition rate and what the student is deemed able to pay with institutional loans, government-subsidized loans, and grants. This type of aid is based on financial need. The goal of providing financial aid to students is to ensure that lower-income students have an opportunity to attend college. In addition to this goal, colleges use price discrimination as a way to increase their revenue. This paper will explore the economic theory behind price discrimination and how the behavior of the college fits that of a profit-maximizing firm.  This paper will analyze what a student could expect to pay as a percentage of total income at different income levels and the effects of the financial aid system on the labor market and retirement saving.</p>
 				</ul>
-				<img src="Etown%20Graduation.jpg" alt="Etown Graduation Photo" />
+				<img src="education/etown/Etown%20Graduation.jpg" alt="Etown Graduation Photo" width="200px" height="400px" />
 				<h5>Presentations</h5>
 				<ul>
 					<li>Elizabethtown College Scholarship Day
@@ -150,66 +152,70 @@
 					<li>Delta Mu Delta business honor society member</li>
 				</ul>
 				<h5>Courses</h5>
-				<ul>
-					<li>Mathematics
-						<ul>
-							<li>Calculus (I, II, III)</li> 
-							<li>Linear Algebra</li>
-							<li>Theory of Probability</li>
-							<li>Financial Mathematics</li>
-							<li>Statistical Methods in Research</li>
-							<li>Real Analysis</li>
-							<li>Abstract Algebra</li>
-							<li>History of Mathematics</li>
-							<li>Discrete Mathematics</li>
-						</ul>
-					</li>
-					<li>Economics
-						<ul>
-							<li>Microeconomics</li>
-							<li>Intermediate Microeconomics</li>
-							<li>Macroeconomics</li>
-							<li>Intermediate Macroeconomics</li>
-							<li>International Economics</li>
-							<li>Economic Development</li>
-							<li>Mathematical Economics</li>
-						</ul>
-					</li>
-					<li>Spanish
-						<ul>
-							<li>Literature</li>
-							<li>Conversation</li>
-							<li>Modern Society</li>
-						</ul>
-					</li>
-					<li>Other
-						<ul>
-							<li>Computer Science (C++)</li>
-							<li>Accounting</li>
-							<li>Honors Leadership</li>
-							<li>Honors Meteorology</li>
-							<li>Honors History of Modern Asia</li>
-						</ul>
-					</li>
-				</ul>
+				<div class="column">
+					<ul>
+						<li>Mathematics
+							<ul>
+								<li>Calculus (I, II, III)</li> 
+								<li>Linear Algebra</li>
+								<li>Theory of Probability</li>
+								<li>Financial Mathematics</li>
+								<li>Statistical Methods in Research</li>
+								<li>Real Analysis</li>
+								<li>Abstract Algebra</li>
+								<li>History of Mathematics</li>
+								<li>Discrete Mathematics</li>
+							</ul>
+						</li>
+						<li>Economics
+							<ul>
+								<li>Microeconomics</li>
+								<li>Intermediate Microeconomics</li>
+								<li>Macroeconomics</li>
+								<li>Intermediate Macroeconomics</li>
+								<li>International Economics</li>
+								<li>Economic Development</li>
+								<li>Mathematical Economics</li>
+							</ul>
+						</li>
+						<li>Spanish
+							<ul>
+								<li>Literature</li>
+								<li>Conversation</li>
+								<li>Modern Society</li>
+							</ul>
+						</li>
+						<li>Other
+							<ul>
+								<li>Computer Science (C++)</li>
+								<li>Accounting</li>
+								<li>Honors Leadership</li>
+								<li>Honors Meteorology</li>
+								<li>Honors History of Modern Asia</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
 			</div>
 			
-			<div id="hempfield">
+			<div id="hempfield" class="school">
 				<h2>Hempfield High School</h2>
 				<h3>Graduated June, 2007</h3>
-				<h4>Activities</h4>
-				<ul>
-					<li>Varsity tennis (four years)</li>
-					<li>Concert Band and Orchestra Oboist</li>
-					<li>Varsity Quiz Bowl</li>
-					<li>Editor-in-Chief of school newspaper</li>
-				</ul>
-				<h4>Honors</h4>
-				<ul>
-					<li>National Merit Finalist, 2006</li>
-					<li>Graduated in top ten of class of over 550</li>
-					<li>Winner of National Council of Teachers of English Achievement Award for Writing, 2006</li>
-				</ul>
+				<div class="column">
+					<h4>Activities</h4>
+					<ul>
+						<li>Varsity tennis (four years)</li>
+						<li>Concert Band and Orchestra Oboist</li>
+						<li>Varsity Quiz Bowl</li>
+						<li>Editor-in-Chief of school newspaper</li>
+					</ul>
+					<h4>Honors</h4>
+					<ul>
+						<li>National Merit Finalist, 2006</li>
+						<li>Graduated in top ten of class of over 550</li>
+						<li>Winner of National Council of Teachers of English Achievement Award for Writing, 2006</li>
+					</ul>
+				</div>
 			</div>
 		
 		</section>
@@ -255,7 +261,7 @@
 			</ul>		
 		</section>
 		
-		<section id="skills">
+		<section id="skills" class="column">
 			<header>
 				<h1>Skills</h1>
 			</header>

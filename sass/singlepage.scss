@@ -27,6 +27,12 @@ $desktop: 980px;
 @mixin text-cutout {
 	text-shadow: -.1rem -.2rem .15rem black;
 }
+
+@mixin column($column-width, $column-count) {
+	-webkit-columns:$column-width $column-count;
+	-moz-columns:$column-width $column-count;
+	columns:$column-width $column-count;
+}
 // Fonts
 @import "fonts.scss";
 
@@ -94,6 +100,10 @@ header[role="banner"] {
 	padding-top: 4rem;
 	padding-left: 15%;
 	padding-right: 15%;
+	@media (max-width:$phone) {
+		padding-left: 5%;
+		padding-right: 5%;
+	}
 	padding-bottom: 4rem;
 	background: $content-background-color;
 	::selection {
@@ -108,6 +118,15 @@ header[role="banner"] {
 		&:first-of-type {
 			border: none;
 		}
+		&.column, .column {
+			@media (min-width: $tablet) {
+				@include column(auto, 2);
+				header {
+					-webkit-column-span:all;
+					column-span: all;
+				}
+			}
+		}
 		header {
 			border-bottom-width: .15rem;
 			border-bottom-color:darken($banner-background-color, 15%);
@@ -116,6 +135,11 @@ header[role="banner"] {
 		}
 		h1:first-of-type {
 			text-align: center;
+		}
+		&#education {
+			.school {
+				margin-top: 4rem;
+			}
 		}
 	}
 	.nav {
@@ -176,22 +200,22 @@ header[role="banner"] {
 	}
 	ul {
 		margin-bottom: 2rem;
+		padding-left: 1.6rem;
 		li {
 			list-style: disc;
 			font-size: 1.6rem;
 			line-height: 2rem;
-		}
-		ul li {
-			list-style: circle;
-			list-style-position: inside;
+			ul li {
+				list-style: circle;
+			}	
 		}
 	}
 	img {
 		margin: 1.5rem;
-		&[alt="Ben Johnson Photo"], &[alt="UNC Graduation Photo"] {
+		&[alt="Ben Johnson Photo"], &[alt="UNC Graduation Photo"],&[alt="Etown Graduation Photo"] {
 			float: right;
 			border-radius: 12px;
-			box-shadow: 4px 4px 4px black;
+			box-shadow: 2px 2px 4px black;
 		}
 	}
 	.abstractlink {
