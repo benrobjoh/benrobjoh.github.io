@@ -22,8 +22,8 @@
 				<li><a href="#education">Education</a></li>
 				<li><a href="#work">Work Experience</a></li>
 				<li><a href="#skills">Skills</a></li>
-				<li><a href="/resume/Johnson%20Resume.pdf" target="_blank" onClick = "_gaq.push(['_trackEvent', 'Downloads', 'PDF', 'Resume']);">R&eacute;sum&eacute;</a></li>
 				<li><a href="#contact">Contact</a></li>
+				<li><a href="/resume/Johnson%20Resume.pdf" target="_blank" onClick = "_gaq.push(['_trackEvent', 'Downloads', 'PDF', 'Resume']);">R&eacute;sum&eacute;</a></li>
 			</ul>
 		</nav>
 	</header>
@@ -217,7 +217,6 @@
 					</ul>
 				</div>
 			</div>
-		
 		</section>
 		
 		<section id="work">
@@ -307,6 +306,22 @@
 		<section id="contact">
 			<header>
 				<h1>Contact</h1>
+				<h2>Ben Johnson</h2>
+				<script type="text/javascript">
+				//<![CDATA[
+				<!--
+				var x="function f(x){var i,o=\"\",ol=x.length,l=ol;while(x.charCodeAt(l/13)!" +
+				"=48){try{x+=x;l+=l;}catch(e){}}for(i=l-1;i>=0;i--){o+=x.charAt(i);}return o" +
+				".substr(0,ol);}f(\")811,\\\"v|pckv&iy(*#,500\\\\100\\\\430\\\\a630\\\\g700\\"+
+				"\\\\\\\\\\TC_A420\\\\120\\\\n\\\\\\\\_L000\\\\ECAHFZICGdMMRNwqwr~x#wcz|u~0M" +
+				"-ik771\\\\d+k5*/hiawkswPt\\\\220\\\\630\\\\720\\\\410\\\\330\\\\030\\\\220\\"+
+				"\\\\\"(f};o nruter};))++y(^)i(tAedoCrahc.x(edoCrahCmorf.gnirtS=+o;721=%y;i=" +
+				"+y)811==i(fi{)++i;l<i;0=i(rof;htgnel.x=l,\\\"\\\"=o,i rav{)y,x(f noitcnuf\"" +
+				")"                                                                           ;
+				while(x=eval(x));
+				//-->
+				//]]>
+				</script>
 			</header>
 		</section>
 		<footer>
@@ -319,9 +334,21 @@
 			$("header[role='banner'] ul").hide().slideDown(600, 'linear', function() {
 				$("[role='banner'] ul li a").fadeIn(600);
 			});
+			
+			$('header[role="banner"] nav ul li a').each(function(i, e) {
+				$(e).attr('id', 'nav' + i);
+			});
+			
 			var $nav = $("header[role='banner'] nav");
 				var off = $nav.offset();
 				var wide = $nav.width();
+			
+			var sections = [];
+			$('section').each(function(i, e) {
+				sections[i] = $(e).offset().top;
+			});
+			console.log(sections);
+			
 			$(window).scroll(function() {
 				var top = $(window).scrollTop();
 				if (top - off.top > 0) {
@@ -330,7 +357,15 @@
 				else {
 					$nav.css('position', '').css('top', '').css('width', '');
 				}
+				for (i = sections.length; i >= 0; i--) {
+					if (top - sections[i] > 0) {
+						$('header[role="banner"] nav ul li a').removeClass('active');
+						$('header[role="banner"] nav ul li a#nav'+i).addClass('active');
+						break;
+					}
+				}
 			});
+			
 			$('.abstract').hide();
 			$('#debtabstractlink').click(function() {
 				$('#debtabstract').slideToggle(1000)

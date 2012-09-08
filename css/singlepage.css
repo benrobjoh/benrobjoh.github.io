@@ -116,7 +116,7 @@ header[role="banner"] {
           padding-left: 3rem;
           padding-right: 3rem;
           display: none; }
-          header[role="banner"] nav ul li a:hover {
+          header[role="banner"] nav ul li a:hover, header[role="banner"] nav ul li a.active {
             color: #fdfbc2; }
 
 #content {
@@ -212,6 +212,9 @@ header[role="banner"] {
       float: right;
       border-radius: 12px;
       box-shadow: 2px 2px 4px black; }
+  #content footer {
+    margin-top: 10rem;
+    font-size: 1.6rem; }
   #content .abstractlink {
     cursor: pointer;
     color: #db5151;
