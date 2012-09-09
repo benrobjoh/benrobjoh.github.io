@@ -9,6 +9,20 @@
 	<meta name="description" content="Ben Johnson is an iOS developer located in Lancaster, PA. He is the developer of Baseliner, an iPhone app that helps users keep a record of their tennis matches. He has an MS in Economics from the University of North Carolina at Chapel Hill and a BS in Mathematics with a second major in economics from Elizabethtown College." />
 	<meta name="keywords" content="Ben Johnson, Lancaster, PA, iOS, Pennsylvania, economics, development, iPhone, iPad, programming, data, analysis" />
 	<meta charset="UTF-8" />
+	
+	<script type="text/javascript">
+
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-28797010-1']);
+	  _gaq.push(['_trackPageview']);
+	
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+
+  </script>
 </head>
 
 <body>
@@ -17,12 +31,12 @@
 		<h2>iOS Developer, MS Economics</h2>
 		<nav>
 			<ul>
-				<li><a href="#about">About</a></li>
-				<li><a href="#projects">Projects</a></li>
-				<li><a href="#education">Education</a></li>
-				<li><a href="#work">Work Experience</a></li>
-				<li><a href="#skills">Skills</a></li>
-				<li><a href="#contact">Contact</a></li>
+				<li><a href="#about" onClick = "_gaq.push(['_trackPageview', '/about/']);">About</a></li>
+				<li><a href="#projects" onClick = "_gaq.push(['_trackPageview', '/projects/']);">Projects</a></li>
+				<li><a href="#education" onClick = "_gaq.push(['_trackPageview', '/education/']);">Education</a></li>
+				<li><a href="#work" onClick = "_gaq.push(['_trackPageview', '/work/']);">Work Experience</a></li>
+				<li><a href="#skills" onClick = "_gaq.push(['_trackPageview', '/skills/']);">Skills</a></li>
+				<li><a href="#contact" onClick = "_gaq.push(['_trackPageview', '/contact/']);">Contact</a></li>
 				<li><a href="/resume/Johnson%20Resume.pdf" target="_blank" onClick = "_gaq.push(['_trackEvent', 'Downloads', 'PDF', 'Resume']);">R&eacute;sum&eacute;</a></li>
 			</ul>
 		</nav>
@@ -60,9 +74,9 @@
 				<h1>Education</h1>
 				<div class="nav">
 					<ul>
-						<li><a href="#unc">UNC-Chapel Hill</a></li>
-						<li><a href="#etown">Elizabethtown College</a></li>
-						<li><a href="#hempfield">Hempfield</a></li>
+						<li><a href="#unc" onClick = "_gaq.push(['_trackPageview', '/education/unc/']);">UNC-Chapel Hill</a></li>
+						<li><a href="#etown" onClick = "_gaq.push(['_trackPageview', '/education/etown/']);">Elizabethtown College</a></li>
+						<li><a href="#hempfield" onClick = "_gaq.push(['_trackPageview', '/education/hhs/']);">Hempfield</a></li>
 					</ul>
 				</div>
 			</header>
@@ -302,7 +316,12 @@
 			</ul>
 			<h2>Programming</h2>
 			<ul>
-				<li>HTML and CSS</li>
+				<li>HTML5</li>
+				<li>CSS3
+					<ul>
+						<li><a href="http://sass-lang.com">Sass</a></li>
+					</ul>
+				</li>
 				<li>Javascript</li>
 				<li><a href="http://jquery.com/">jQuery</a></li>
 				<li>Objective-C for iOS development</li>
