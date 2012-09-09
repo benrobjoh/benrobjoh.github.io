@@ -214,7 +214,7 @@ header[role="banner"] {
       float: right;
       border-radius: 12px;
       box-shadow: 2px 2px 4px black; }
-    #content img[alt="App Store Icon"] {
+    #content img[alt="App Store Icon"], #content img[alt="Baseliner Icon"] {
       float: right; }
   #content #linkedin {
     float: right; }

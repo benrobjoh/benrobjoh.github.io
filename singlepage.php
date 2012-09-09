@@ -39,18 +39,20 @@
 			<header>
 				<h1>Projects</h1>
 			</header>
-				<a href="http://click.linksynergy.com/fs-bin/stat?id=sXVjBlpBuDI&offerid=146261&type=3&subid=0&tmpid=1826&RD_PARM1=http%253A%252F%252Fitunes.apple.com%252Fus%252Fapp%252Fbaseliner%252Fid554343726%253Fmt%253D8%2526uo%253D4%2526partnerId%253D30" target="itunes_store"><img src="../images/portfolio/appstore-transparent.png" alt="App Store Icon" height="75" width="150"></a>
-				<h2>Baseliner</h2>
-				<p>
-					Baseliner helps you keep a record of your singles tennis matches.
-					<ul>
-						<li>Add an opponent, score, date, and location to your matches</li> 
-						<li>Easily view all your matches against a particular opponent</li> 
-						<li>Keep track of your win/loss record against each opponent</li>
-						<li>Share your match scores on Twitter</li>
-						<li>Export your a CSV with your match records to Dropbox</li>
-					</ul>
-				</p>
+			<img src="../images/baseliner-icon.png" height="114" width="114" alt="Baseliner Icon">	
+			<a href="http://click.linksynergy.com/fs-bin/stat?id=sXVjBlpBuDI&offerid=146261&type=3&subid=0&tmpid=1826&RD_PARM1=http%253A%252F%252Fitunes.apple.com%252Fus%252Fapp%252Fbaseliner%252Fid554343726%253Fmt%253D8%2526uo%253D4%2526partnerId%253D30" target="itunes_store"><img src="../images/appstore-transparent.png" alt="App Store Icon" height="150" width="300"></a>
+			<h2>Baseliner</h2>
+			<h3>May, 2012 - present</h3>
+			<p>
+				Baseliner helps you keep a record of your singles tennis matches.
+				<ul>
+					<li>Add an opponent, score, date, and location to your matches</li> 
+					<li>Easily view all your matches against a particular opponent</li> 
+					<li>Keep track of your win/loss record against each opponent</li>
+					<li>Share your match scores on Twitter</li>
+					<li>Export your a CSV with your match records to Dropbox</li>
+				</ul>
+			</p>
 		</section>
 		
 		<section id="education">

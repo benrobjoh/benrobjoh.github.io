@@ -220,7 +220,7 @@ header[role="banner"] {
 			border-radius: 12px;
 			box-shadow: 2px 2px 4px black;
 		}
-		&[alt="App Store Icon"] {
+		&[alt="App Store Icon"], &[alt="Baseliner Icon"] {
 			float: right;
 		}
 	}
