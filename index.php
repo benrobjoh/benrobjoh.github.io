@@ -14,7 +14,7 @@
 <body>
 	<header role="banner">
 		<h1>Ben Johnson</h1>
-		<h2>iOS Developer</h2>
+		<h2>iOS Developer, MS Economics</h2>
 		<nav>
 			<ul>
 				<li><a href="#about">About</a></li>
@@ -320,10 +320,12 @@
 			<header>
 				<h1>Contact</h1>
 			</header>
-				<div id="linkedin">
+				<!--
+<div id="linkedin">
 						<script src="//platform.linkedin.com/in.js" type="text/javascript"></script>
 		<script type="IN/MemberProfile" data-id="www.linkedin.com/in/benrobjoh" data-format="inline" data-related="false"></script>
 				</div>
+-->
 				<h2>Ben Johnson</h2>
 				<ul>
 					<li>
@@ -357,19 +359,22 @@
 				$("[role='banner'] ul li a").fadeIn(600);
 			});
 			
-			$('header[role="banner"] nav ul li a').each(function(i, e) {
+			/*
+$('header[role="banner"] nav ul li a').each(function(i, e) {
 				$(e).attr('id', 'nav' + i);
 			});
+*/
 			
 			var $nav = $("header[role='banner'] nav");
-				var off = $nav.offset();
-				var wide = $nav.width();
+			var off = $nav.offset();
+			var wide = $nav.width();
 			
-			var sections = [];
+			/*
+var sections = [];
 			$('section').each(function(i, e) {
 				sections[i] = $(e).offset().top;
 			});
-			console.log(sections);
+*/
 			
 			$(window).scroll(function() {
 				var top = $(window).scrollTop();
@@ -379,13 +384,15 @@
 				else {
 					$nav.css('position', '').css('top', '').css('width', '');
 				}
-				for (i = sections.length; i >= 0; i--) {
+				/*
+for (i = sections.length; i >= 0; i--) {
 					if (top - sections[i] > 0) {
 						$('header[role="banner"] nav ul li a').removeClass('active');
 						$('header[role="banner"] nav ul li a#nav'+i).addClass('active');
 						break;
 					}
 				}
+*/
 			});
 			
 			$('.abstract').hide();
