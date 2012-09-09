@@ -159,7 +159,7 @@ header[role="banner"] {
 					padding-left: 3rem;
 					padding-right: 3rem;
 					&:hover {
-						color:lighten($banner-text-color, 35%);
+						color:lighten($banner-background-color, 35%);
 					}
 				}
 			}
@@ -205,22 +205,36 @@ header[role="banner"] {
 			list-style: disc;
 			font-size: 1.6rem;
 			line-height: 2rem;
-			ul li {
-				list-style: circle;
+			ul {
+				margin-bottom: 0;
+				li {
+					list-style: circle;
+				}
 			}	
 		}
 	}
 	img {
 		margin: 1.5rem;
-		&[alt="Ben Johnson Photo"], &[alt="UNC Graduation Photo"],&[alt="Etown Graduation Photo"] {
+		&[alt="Ben Johnson Photo"], &[alt="UNC Graduation Photo"], &[alt="Etown Graduation Photo"] {
 			float: right;
 			border-radius: 12px;
 			box-shadow: 2px 2px 4px black;
 		}
+		&[alt="App Store Icon"] {
+			float: right;
+		}
+	}
+	#linkedin {
+		float: right;
 	}
 	footer {
 		margin-top: 10rem;
 		font-size: 1.6rem;
+		border-top-width: .15rem;
+		border-top-color:darken($banner-background-color, 15%);
+		border-top-style: solid;
+		padding-top: 2rem;
+
 	}
 	.abstractlink {
 		cursor: pointer;

@@ -6,8 +6,8 @@
 	<link rel="apple-touch-icon" href="http://benrobjoh.com/include/iosicon.png"/>
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
 	<title>Ben Johnson: Lancaster, PA iOS Developer – benrobjoh</title>
-	<meta name="description" content="Ben Johnson" />
-	<meta name="keywords" content="" />
+	<meta name="description" content="Ben Johnson is an iOS developer located in Lancaster, PA. He is the developer of Baseliner, an iPhone app that helps users keep a record of their tennis matches. He has an MS in Economics from the University of North Carolina at Chapel Hill and a BS in Mathematics with a second major in economics from Elizabethtown College." />
+	<meta name="keywords" content="Ben Johnson, Lancaster, PA, iOS, Pennsylvania, economics, development, iPhone, iPad, programming, data, analysis" />
 	<meta charset="UTF-8" />
 </head>
 
@@ -39,7 +39,18 @@
 			<header>
 				<h1>Projects</h1>
 			</header>
+				<a href="http://click.linksynergy.com/fs-bin/stat?id=sXVjBlpBuDI&offerid=146261&type=3&subid=0&tmpid=1826&RD_PARM1=http%253A%252F%252Fitunes.apple.com%252Fus%252Fapp%252Fbaseliner%252Fid554343726%253Fmt%253D8%2526uo%253D4%2526partnerId%253D30" target="itunes_store"><img src="../images/portfolio/appstore-transparent.png" alt="App Store Icon" height="75" width="150"></a>
 				<h2>Baseliner</h2>
+				<p>
+					Baseliner helps you keep a record of your singles tennis matches.
+					<ul>
+						<li>Add an opponent, score, date, and location to your matches</li> 
+						<li>Easily view all your matches against a particular opponent</li> 
+						<li>Keep track of your win/loss record against each opponent</li>
+						<li>Share your match scores on Twitter</li>
+						<li>Export your a CSV with your match records to Dropbox</li>
+					</ul>
+				</p>
 		</section>
 		
 		<section id="education">
@@ -306,23 +317,32 @@
 		<section id="contact">
 			<header>
 				<h1>Contact</h1>
-				<h2>Ben Johnson</h2>
-				<script type="text/javascript">
-				//<![CDATA[
-				<!--
-				var x="function f(x){var i,o=\"\",ol=x.length,l=ol;while(x.charCodeAt(l/13)!" +
-				"=48){try{x+=x;l+=l;}catch(e){}}for(i=l-1;i>=0;i--){o+=x.charAt(i);}return o" +
-				".substr(0,ol);}f(\")811,\\\"v|pckv&iy(*#,500\\\\100\\\\430\\\\a630\\\\g700\\"+
-				"\\\\\\\\\\TC_A420\\\\120\\\\n\\\\\\\\_L000\\\\ECAHFZICGdMMRNwqwr~x#wcz|u~0M" +
-				"-ik771\\\\d+k5*/hiawkswPt\\\\220\\\\630\\\\720\\\\410\\\\330\\\\030\\\\220\\"+
-				"\\\\\"(f};o nruter};))++y(^)i(tAedoCrahc.x(edoCrahCmorf.gnirtS=+o;721=%y;i=" +
-				"+y)811==i(fi{)++i;l<i;0=i(rof;htgnel.x=l,\\\"\\\"=o,i rav{)y,x(f noitcnuf\"" +
-				")"                                                                           ;
-				while(x=eval(x));
-				//-->
-				//]]>
-				</script>
 			</header>
+				<div id="linkedin">
+						<script src="//platform.linkedin.com/in.js" type="text/javascript"></script>
+		<script type="IN/MemberProfile" data-id="www.linkedin.com/in/benrobjoh" data-format="inline" data-related="false"></script>
+				</div>
+				<h2>Ben Johnson</h2>
+				<ul>
+					<li>
+						<script type="text/javascript">
+						//<![CDATA[
+						<!--
+						var x="function f(x){var i,o=\"\",ol=x.length,l=ol;while(x.charCodeAt(l/13)!" +
+						"=48){try{x+=x;l+=l;}catch(e){}}for(i=l-1;i>=0;i--){o+=x.charAt(i);}return o" +
+						".substr(0,ol);}f(\")811,\\\"v|pckv&iy(*#,500\\\\100\\\\430\\\\a630\\\\g700\\"+
+						"\\\\\\\\\\TC_A420\\\\120\\\\n\\\\\\\\_L000\\\\ECAHFZICGdMMRNwqwr~x#wcz|u~0M" +
+						"-ik771\\\\d+k5*/hiawkswPt\\\\220\\\\630\\\\720\\\\410\\\\330\\\\030\\\\220\\"+
+						"\\\\\"(f};o nruter};))++y(^)i(tAedoCrahc.x(edoCrahCmorf.gnirtS=+o;721=%y;i=" +
+						"+y)811==i(fi{)++i;l<i;0=i(rof;htgnel.x=l,\\\"\\\"=o,i rav{)y,x(f noitcnuf\"" +
+						")"                                                                           ;
+						while(x=eval(x));
+						//-->
+						//]]>
+						</script>
+					</li>
+					<li>For iOS or web development inquiries, please visit <a href="http://bixelcog.com/">Bixelcog</a>.</li>
+				</ul>
 		</section>
 		<footer>
 			Copyright &copy; 2012 Ben Johnson
