@@ -64,7 +64,7 @@
 					<li>Easily view all your matches against a particular opponent</li> 
 					<li>Keep track of your win/loss record against each opponent</li>
 					<li>Share your match scores on Twitter</li>
-					<li>Export your a CSV with your match records to Dropbox</li>
+					<li>Export a CSV with your match records to Dropbox</li>
 				</ul>
 			</p>
 		</section>
@@ -329,9 +329,13 @@
 			</ul>
 			<h2>Teaching</h2>
 			<ul>
-				<li>ACTFL intermediate high proficiency in Spanish</li>
 				<li>Teaching Tennis</li>
 				<li>Teaching Economics</li>
+			</ul>
+			<h2>Language</h2>
+			<ul>
+			<li>English: Native speaker</li>
+			<li>Spanish: ACTFL intermediate high proficiency in Spanish, Spanish minor</li>
 			</ul>		
 		</section>
 		
