@@ -2,6 +2,10 @@
 <html lang="en">
 <head>
 	<link href="http://benrobjoh.com/css/singlepage.css" media="screen, projection" rel="stylesheet" type="text/css" />
+	<!--[if IE]>
+		<link href="/css/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+ 	<![endif]-->
+ 
 	<link rel="shortcut icon" href="http://benrobjoh.com/include/favicon.ico"/>
 	<link rel="apple-touch-icon" href="http://benrobjoh.com/include/iosicon.png"/>
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>

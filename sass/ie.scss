@@ -3,3 +3,172 @@
  * <!--[if IE]>
  *   <link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
  * <![endif]--> */
+
+/* benrobjoh
+Styles by Ben Johnson
+2012
+*/
+// Imports
+@import "compass/reset";
+@import "compass/utilities/general/clearfix";
+
+// Variables
+$font: 'Gudea';
+$banner-background-color: #14ce39;
+$banner-text-color: #f9ee14;
+$content-background-color: rgba(240, 240, 125, 1.0);
+
+$h1-size: 40px;
+$h2-size: $h1-size * .75;
+$h3-size: $h2-size * .85;
+$h4-size: $h3-size * .85;
+$h5-size: $h4-size * .85;
+
+
+$phone: 480px;
+$tablet: 767px;
+$desktop: 980px;
+ 
+//Mixins
+@mixin text-cutout {
+	text-shadow: -1px -2px 1.5px black;
+}
+
+@mixin column($column-width, $column-count) {
+	-webkit-columns:$column-width $column-count;
+	-moz-columns:$column-width $column-count;
+	columns:$column-width $column-count;
+}
+// Fonts
+@import "fonts.scss";
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-family: $font;
+}
+
+header[role="banner"] {
+	h1 {
+		font-size: 80px;
+		padding-top: 50px;
+		padding-bottom: 20px;
+		@include text-cutout;
+		@media (max-width: $phone) {
+			font-size:30px;
+		}
+	}
+	h2 {
+		font-size: 40px;
+		padding-bottom: 40px;
+	}
+	nav {
+		border-bottom: 2px inset black;
+		ul {
+			margin: 0 auto;
+			li {
+				padding-top: 10px;
+				padding-bottom: 10px;
+				a {
+					font-size: 18px;
+					padding-left: 30px;
+					padding-right: 30px;
+				}
+			}
+		}
+	}
+}
+
+#content {
+	margin-top: 0;
+	padding-top: 40px;
+	padding-left: 15%;
+	padding-right: 15%;
+	@media (max-width: $phone) {
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+	padding-bottom: 40px;
+	section {
+		margin-bottom: 20px;
+		border-top-width: 1.5px;
+		padding-top: 20px;
+		&.column, .column {
+			@media (min-width: $tablet) {
+				@include column(auto, 2);
+				header {
+					-webkit-column-span:inherit;
+					column-span: inherit;
+				}
+			}
+		}
+		header {
+			border-bottom-width: 1.5px;
+			margin-bottom: 20px;
+		}
+		&#education {
+			.school {
+				margin-top: 40px;
+			}
+		}
+	}
+	.nav {
+		ul {
+			li {
+				padding-top: 10px;
+				padding-bottom: 10px;
+				a {
+					font-size: 18px; 
+					padding-left: 30px;
+					padding-right: 30px;
+				}
+			}
+		}
+	}
+	h1 {
+		font-size: $h1-size;
+		padding-bottom: 10px;
+	}
+	h2 {
+		font-size: $h2-size;
+		padding-bottom: 10px;
+		
+	}
+	h3 {
+		font-size: $h3-size; 
+		padding-bottom: 7.5px;
+	}
+	h4 {
+		font-size: $h4-size;
+		padding-bottom: 7.5px;
+	}
+	h5 {
+		font-size: $h5-size;
+		padding-bottom: 5px;
+	}
+	p {
+		padding-top: 10px;
+		font-size: 16px;
+		line-height: 20px;
+	}
+	ul {
+		margin-bottom: 20px;
+		padding-left: 16px;
+		li {
+			font-size: 16px;
+			line-height: 20px;	
+		}
+	}
+	img {
+		margin: 15px;
+	}
+	footer {
+		margin-top: 100px;
+		font-size: 16px;
+		border-top-width: 1.5px;
+		padding-top: 20px;
+	}
+}
+

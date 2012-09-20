@@ -193,7 +193,7 @@ header[role="banner"] {
 	}
 	a {
 		color: darken($banner-background-color, 10%);
-		&::selection {
+		&:hover {
 			color: $banner-text-color;
 			
 		}

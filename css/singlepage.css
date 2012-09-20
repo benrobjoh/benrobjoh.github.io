@@ -195,7 +195,7 @@ header[role="banner"] {
     line-height: 2rem; }
   #content a {
     color: #0fa02c; }
-    #content a::selection {
+    #content a:hover {
       color: #f9ee14; }
   #content ul {
     margin-bottom: 2rem;
