@@ -256,7 +256,7 @@
 			</header>
 			<h2>Software as a Service, BerkleyX</h2>
 			<ul>
-				<li>CS169.1x, Engineering Long-Lasting Software
+				<li><a href="images/saas1.pdf">CS169.1x, Engineering Long-Lasting Software</a>
 					<ul>
 						<li>CS169.1x teaches the fundamentals for engineering long-lasting software using highly-productive Agile techniques to develop Software as a Service (SaaS) using Ruby on Rails. Students will understand the new challenges and opportunities of SaaS versus shrink-wrapped software. They will understand and apply fundamental programming techniques to the design, development, testing, and public cloud deployment of a simple SaaS application. Students will use best-of-breed tools that support modern development techniques including behavior-driven design, user stories, test-driven development, velocity, and pair programming. Students will learn how modern programming language features like metaprogramming and reflection can improve productivity and code maintainability.</li>
 					</ul>
