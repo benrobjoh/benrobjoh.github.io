@@ -250,10 +250,38 @@
 			</div>
 		</section>
 		
+		<section id="certification">
+			<header>
+				<h1>Certifications</h1>
+			</header>
+			<h2>Software as a Service, BerkleyX</h2>
+			<ul>
+				<li>CS169.1x, Engineering Long-Lasting Software
+					<ul>
+						<li>CS169.1x teaches the fundamentals for engineering long-lasting software using highly-productive Agile techniques to develop Software as a Service (SaaS) using Ruby on Rails. Students will understand the new challenges and opportunities of SaaS versus shrink-wrapped software. They will understand and apply fundamental programming techniques to the design, development, testing, and public cloud deployment of a simple SaaS application. Students will use best-of-breed tools that support modern development techniques including behavior-driven design, user stories, test-driven development, velocity, and pair programming. Students will learn how modern programming language features like metaprogramming and reflection can improve productivity and code maintainability.</li>
+					</ul>
+				</li>
+				<li>CS169.2x, Engineering Long-Lasting Software
+					<ul>
+						<li>CS 169.2x is the second half of University of California, Berkeley's semester long course on Software as a Service. In the first half of the course, CS 169.1x, students use Agile development methods to deploy a simple SaaS app in the cloud. In the second half, CS 169.2x, students create more sophisticated apps by adding relationships between models in apps and by enhancing their apps with JavaScript. They also learn about what happens after the apps are deployed to real users, including how to monitor performance, identify and fix common performance problems, and avoid compromising customer data. Finally, students learn how to apply Agile techniques to enhance and refactor legacy code, a critical skill for professional programmers. Other topics covered in CS 169.2x include how to form, organize and manage small programming teams, an introduction to design patterns: what they are and how to recognize opportunities to apply them, and using Rails for more advanced features like third-party authentication and elegantly expressing design patterns that arise frequently in SaaS.</li>
+					</ul>
+				</li>
+			</ul>
+		</section>
+		
 		<section id="work">
 			<header>
 				<h1>Work Experience</h1>
 			</header>
+			<h2>The Hershey Company</h2>
+			<ul>
+				<li>iOS Developer, October 2012-present
+					<ul>
+						<li>Contracted iOS Developer at the Hershey Company through System One</li>
+						<li>Created iOS applications to allow salespeople and their managers to perform tasks like entering time, mileage, and expenses on their iOS devices</li>
+					</ul>
+				</li>
+			</ul>
 			<h2>Economics Department, University of North Carolina at Chapel Hill</h2>
 			<ul>
 				<li>Teaching Assistant, 2010-2012
@@ -318,8 +346,15 @@
 				<li><a href="http://www.google.com/a">Google Apps</a></li>
 				<li>Website Administration</li>
 			</ul>
-			<h2>Programming</h2>
+			<h2>Programming and Software Development</h2>
 			<ul>
+				<li>Objective-C for iOS development</li>
+				<li><a href="http://git-scm.com/">Git</a></li>
+				<li>Software as a Service
+					<ul>
+						<li>Certificate for Completing BerkleyX's course CS169.1x</li>
+					</ul>
+				</li>
 				<li>HTML5</li>
 				<li>CSS3
 					<ul>
@@ -328,8 +363,6 @@
 				</li>
 				<li>Javascript</li>
 				<li><a href="http://jquery.com/">jQuery</a></li>
-				<li>Objective-C for iOS development</li>
-				<li><a href="http://git-scm.com/">Git</a></li>
 			</ul>
 			<h2>Teaching</h2>
 			<ul>
