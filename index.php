@@ -254,7 +254,7 @@
 			<header>
 				<h1>Certifications</h1>
 			</header>
-			<h2>Software as a Service, BerkleyX</h2>
+			<h2>Software as a Service, BerkeleyX</h2>
 			<ul>
 				<li><a href="images/saas1.pdf">CS169.1x, Engineering Long-Lasting Software</a>
 					<ul>
@@ -346,13 +346,13 @@
 				<li><a href="http://www.google.com/a">Google Apps</a></li>
 				<li>Website Administration</li>
 			</ul>
-			<h2>Programming and Software Development</h2>
+			<h2>Software Development</h2>
 			<ul>
 				<li>Objective-C for iOS development</li>
 				<li><a href="http://git-scm.com/">Git</a></li>
 				<li>Software as a Service
 					<ul>
-						<li>Certificate for Completing BerkleyX's course CS169.1x</li>
+						<li>Certificate for Completing BerkeleyX's course CS169.1x</li>
 					</ul>
 				</li>
 				<li>HTML5</li>
