@@ -352,7 +352,7 @@
 				<li><a href="http://git-scm.com/">Git</a></li>
 				<li>Software as a Service
 					<ul>
-						<li>Certificate for Completing BerkeleyX's course CS169.1x</li>
+						<li>Certificate for Completing BerkeleyX's courses CS169.1x and CS169.2x</li>
 					</ul>
 				</li>
 				<li>HTML5</li>
