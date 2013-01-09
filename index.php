@@ -277,7 +277,7 @@
 			<ul>
 				<li>iOS Developer, October 2012-present
 					<ul>
-						<li>Contracted iOS Developer at the Hershey Company through System One</li>
+						<li>Contracted iOS Developer at The Hershey Company through System One</li>
 						<li>Created iOS applications to allow salespeople and their managers to perform tasks like entering time, mileage, and expenses on their iOS devices</li>
 					</ul>
 				</li>
