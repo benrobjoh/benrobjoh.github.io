@@ -254,7 +254,7 @@
 			<header>
 				<h1>Certifications</h1>
 			</header>
-			<h2>Software as a Service, BerkeleyX</h2>
+			<h2>Software as a Service, BerkeleyX (edX)</h2>
 			<ul>
 				<li><a href="images/saas1.pdf">CS169.1x, Engineering Long-Lasting Software</a>
 					<ul>
@@ -267,6 +267,8 @@
 					</ul>
 				</li>
 			</ul>
+			<h2><a href="images/computingfordata.pdf">Computing for Data Analysis, Johns Hopkins (Coursera)</a></h2>
+			<p>This course is about learning the fundamental computing skills necessary for effective data analysis. Learn to program in R and to use R for reading data, writing functions, making informative graphs, and applying modern statistical methods.</p>
 		</section>
 		
 		<section id="work">
@@ -339,6 +341,7 @@
 					<ul>
 						<li><a href="http://en.wikipedia.org/wiki/Stata">Stata</a></li>
 						<li><a href="http://en.wikipedia.org/wiki/Matlab">MATLAB</a></li>
+						<li><a href="http://www.r-project.org">R</a></li>
 					</ul>
 				</li>
 				<li><a href="http://www.latex-project.org/">LaTeX</a></li>
@@ -349,6 +352,7 @@
 			<h2>Software Development</h2>
 			<ul>
 				<li>Objective-C for iOS development</li>
+				<li>Agile Methodology</li>
 				<li><a href="http://git-scm.com/">Git</a></li>
 				<li>Software as a Service
 					<ul>
@@ -409,7 +413,7 @@
 				</ul>
 		</section>
 		<footer>
-			Copyright &copy; 2012 Ben Johnson
+			Copyright &copy; 2013 Ben Johnson
 		</footer>
 	</div>
 	
