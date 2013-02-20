@@ -58,7 +58,7 @@
 				<h1>Projects</h1>
 			</header>
 			<img src="../images/baseliner-icon.png" height="114" width="114" alt="Baseliner Icon">	
-			<a href="http://click.linksynergy.com/fs-bin/stat?id=sXVjBlpBuDI&offerid=146261&type=3&subid=0&tmpid=1826&RD_PARM1=http%253A%252F%252Fitunes.apple.com%252Fus%252Fapp%252Fbaseliner%252Fid554343726%253Fmt%253D8%2526uo%253D4%2526partnerId%253D30" target="itunes_store"><img src="../images/appstore-transparent.png" alt="App Store Icon" height="150" width="300"></a>
+			<a href="http://click.linksynergy.com/fs-bin/stat?id=sXVjBlpBuDI&offerid=146261&type=3&subid=0&tmpid=1826&RD_PARM1=http%253A%252F%252Fitunes.apple.com%252Fus%252Fapp%252Fbaseliner%252Fid554343726%253Fmt%253D8%2526uo%253D4%2526partnerId%253D30" target="itunes_store"><img src="../images/appstore-transparent.png" alt="App Store Icon" height="40" width="135"></a>
 			<h2>Baseliner</h2>
 			<h3>May, 2012 - present</h3>
 			<p>
