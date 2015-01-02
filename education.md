@@ -60,6 +60,8 @@ Student in the [Online Master of Computer Science](http://www.omscs.gatech.edu) 
 - Econ 890 Quantitative Methods
 - Econ 890 Empirical Industrial Organization: Survey of empirical industrial organization literature, MATLAB
 
+![UNC Graduation](/assets/images/UNC Graduation.jpg)
+
 ---
 
 ## Elizabethtown College
@@ -120,6 +122,8 @@ Student in the [Online Master of Computer Science](http://www.omscs.gatech.edu) 
 	- Honors Leadership
 	- Honors Meteorology
 	- Honors History of Modern Asia
+	
+![Elizabethtown College Graduation](/assets/images/Etown Graduation.jpg)
 
 ---
 

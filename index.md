@@ -1,10 +1,12 @@
 ---
 layout: page
-title: Home
+title: About
 sequence: 0
 ---
 
 ![Ben Johnson](/assets/images/Ben Johnson.jpg)
+
+Ben Johnson is the founder of [Bixelcog LLC](http://www.bixelcog.com), an iOS development company in Lancaster, PA. 
 
 Ben Johnson, born November 9, 1988, grew up in Lancaster, PA. He graduated from Hempfield High School in June 2007. At Hempfield he earned four varsity letters in tennis, played oboe in the concert band, and was co-editor-in-chief of the newspaper. He completed his undergraduate studies at Elizabethtown College in three years, graduating with a BS in mathematics with a second major in economics and a minor in Spanish. After passing actuarial exam FM (financial mathematics), Ben interned with the actuarial department of Arch Insurance in New York, NY during the summer of 2009.
 
