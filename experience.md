@@ -13,7 +13,7 @@ Lancaster, PA: *August 2014 - present*
 
 # The Hershey Company
 **iOS Developer**, contracted through System One  
-Hershey, PA: *October 22, 2012 – present*
+Hershey, PA: *October, 2012 – March, 2015*
 
 - Developed apps for Hershey's field sales team to use as part of effort to move all sales activities to iPad
 

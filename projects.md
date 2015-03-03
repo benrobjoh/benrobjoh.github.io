@@ -26,3 +26,8 @@ BRJPopover is an Objective-C framework for iOS. It presents a list inside a popo
 *January 2014*
 
 Contributed a [pull request](https://github.com/magicalpanda/MagicalRecord/pull/627) to add functionality to support dates in JSON formatted as Unix timestamps
+
+### [MagicalRecord](https://github.com/magicalpanda/MagicalRecord)
+*March 2015*
+
+Contributed a [pull request](https://github.com/CocoaLumberjack/CocoaLumberjack/pull/464) to fix bug where a new log file was created on each app launch on the iOS simulator
