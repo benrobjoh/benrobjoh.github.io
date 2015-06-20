@@ -10,8 +10,8 @@ sequence: 3
 Lancaster, PA: *August 2014 - present*
 
 - Consulting for iOS development projects
-- Lead iOS developer on [Steinway Spirio]((https://itunes.apple.com/us/app/steinway-spirio/id942701332?mt=8), an iPad app that controls music playback on Steinway's player piano system. Steinway Spirio was featured in [Wired](http://www.wired.com/2015/04/steinways-new-piano-can-play-perfect-concerto/).
-- [ArkivMusic Streaming iPad apps](https://itunes.apple.com/us/app/arkivmusic-streaming/id978481936?mt=8), an iPad app used to stream classical music
+- Lead iOS developer on [Steinway Spirio](https://itunes.apple.com/us/app/steinway-spirio/id942701332?mt=8), an iPad app that controls music playback on Steinway's player piano system. Steinway Spirio was featured in [Wired](http://www.wired.com/2015/04/steinways-new-piano-can-play-perfect-concerto/).
+- Lead iOS developer on [ArkivMusic Streaming](https://itunes.apple.com/us/app/arkivmusic-streaming/id978481936?mt=8), an iPad app used to stream classical music
 
 # The Hershey Company
 **iOS Developer**, contracted through System One  
