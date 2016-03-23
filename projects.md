@@ -5,6 +5,13 @@ permalink: /projects/
 sequence: 2
 ---
 
+## [Pretty Swift](https://itunes.apple.com/us/app/baseliner/id554343726?mt=8)
+*August - December 2015*
+
+Pretty Swift is a learning resource to help beginning programmers get started with iOS development. The Pretty Swift course is a roadmap for beginning iOS developers. All the course materials are available on [GitHub](https://github.com/prettyswift).
+
+The Pretty Swift curriculum was the course project for [CS 6460 Educational Technology](https://www.udacity.com/wiki/ud915) in [Georgia Tech's Online Master in Computer Science program](http://www.omscs.gatech.edu/).
+
 ## [Baseliner](https://itunes.apple.com/us/app/baseliner/id554343726?mt=8)
 *May - September 2012*
 

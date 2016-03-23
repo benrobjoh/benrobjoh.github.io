@@ -9,6 +9,13 @@ sequence: 2
 
 Student in the [Online Master of Computer Science](http://www.omscs.gatech.edu) program, January 2015 - present
 
+### Courses
+- Computational Photography
+- Computer Networks
+- Knowledge-Based Artificial Intelligence: Cognitive Systems
+- Educational Technology
+- Introduction to Information Security
+
 ---
 
 ## Continuing Education
