@@ -15,6 +15,8 @@ Student in the [Online Master of Computer Science](http://www.omscs.gatech.edu) 
 - Knowledge-Based Artificial Intelligence: Cognitive Systems
 - Educational Technology
 - Introduction to Information Security
+- Software Development Process
+- Machine Learning for Trading
 
 ---
 
@@ -129,7 +131,7 @@ Student in the [Online Master of Computer Science](http://www.omscs.gatech.edu) 
 	- Honors Leadership
 	- Honors Meteorology
 	- Honors History of Modern Asia
-	
+
 ![Elizabethtown College Graduation](/assets/images/Etown Graduation.jpg)
 
 ---

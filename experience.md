@@ -17,7 +17,14 @@ Lancaster, PA: *August 2014 - present*
 **iOS Developer**, contracted through System One  
 Hershey, PA: *October 2012 – March 2015, December 2015 - present*
 
-- Developed a suite of apps for Hershey's field sales team to use as part of effort to move all sales activities to iPad
+- Develop and maintain a suite of apps for Hershey's field sales team to use as part of effort to move all sales activities to iPad
+    - iPad app used by sales representatives during the store call process: scheduling, placing orders, writing credits, taking notes, managing contacts, and more
+    - iPad app used by sales merchandisers for all aspects of the store call process: scheduling, placing orders, writing credits, taking notes, managing contacts, checking product distribution, and more
+    - Universal iOS app used by managers to approve time and expenses
+    - Universal iOS app used by sales managers to create performance evaluations for sales representatives  
+    - Universal iOS and watchOS app to convert between dates and manufacturing day codes
+    - Universal iOS employee directory showing employee manager and direct reports that makes it easy to call, message, or email coworkers
+    - iPad app used by sales representatives to enter their time and mileage
 
 # University of North Carolina at Chapel Hill, Department of Economics
 **Teaching Assistant**  
