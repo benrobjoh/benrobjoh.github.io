@@ -7,7 +7,9 @@ sequence: 2
 
 ## Georgia Institute of Technology
 
-Student in the [Online Master of Computer Science](http://www.omscs.gatech.edu) program, January 2015 - present
+**MS Computer Science**, Interactive Intelligence concentration, December 2017
+
+[Online Master of Computer Science](http://www.omscs.gatech.edu) program, January 2015 - December 2017
 
 ### Courses
 - Computational Photography
@@ -17,6 +19,9 @@ Student in the [Online Master of Computer Science](http://www.omscs.gatech.edu) 
 - Introduction to Information Security
 - Software Development Process
 - Machine Learning for Trading
+- Machine Learning
+- Operating Systems
+- Health Informatics
 
 ---
 
