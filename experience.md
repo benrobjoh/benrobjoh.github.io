@@ -5,6 +5,16 @@ permalink: /experience/
 sequence: 3
 ---
 
+# The Hershey Company
+**Senior Analyst - iOS Development, Retail Solutions**
+Hershey, PA: *April 2020 - present*
+
+- iOS architect for complex enterprise retail execution app used by Hershey sales representatives across the United States and two other countries
+- Architected and implemented update of legacy iOS networking system from Objective-C to Swift by developing Swift packages for local persistence and networking. Designed and wrote specifications for the corresponding rewrite of REST APIs to support syncing updated data only.
+- Designed and implemented feature flagging system to configure iOS app features based on user country and job title, allowing a single iOS app to be used for retail execution across multiple countries and job roles.
+- Wrote technical specification and implemented app changes to allow use of retail execution app in a new country. This project made possible the retirement of a legacy system and brought the capabilities of the modern platform to the country’s sales team.
+- Developed iOS build and test automation system on Azure DevOps that saves two hours per week
+
 # [Bixelcog LLC](http://www.bixelcog.com)
 **Founder and iOS Developer**  
 Lancaster, PA: *August 2014 - present*

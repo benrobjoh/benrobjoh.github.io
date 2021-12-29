@@ -5,22 +5,24 @@ permalink: /projects/
 sequence: 2
 ---
 
+## [Baseliner](https://www.baseliner.app/)
+*May - September 2012*; *February 2020 - present*
+
+- Baseliner is an iPhone, iPad, and Mac app that keeps a record of singles and doubles tennis matches.
+- Add an opponent, score, date, and notes to matches
+- Easily view all your matches against a particular opponent
+- Keep track of your win/loss record against each opponent
+- Export a JSON back up of matches
+- UI developed using SwiftUI
+- Sync match records between devices with iCloud
+- Available on the [App Store](https://itunes.apple.com/us/app/baseliner/id554343726?mt=8). Tracking up to three players is free. A one-time in-app purchase unlocks the ability to track unlimited players (opponents and partners).
+
 ## [Pretty Swift](http://www.bixelcog.com/pretty-swift/)
 *August - December 2015*
 
 Pretty Swift is a learning resource to help beginning programmers get started with iOS development. The Pretty Swift course is a roadmap for beginning iOS developers. All the course materials are available on [GitHub](https://github.com/prettyswift).
 
 The Pretty Swift curriculum was the course project for [CS 6460 Educational Technology](https://www.udacity.com/wiki/ud915) in [Georgia Tech's Online Master in Computer Science program](http://www.omscs.gatech.edu/).
-
-## [Baseliner](https://itunes.apple.com/us/app/baseliner/id554343726?mt=8)
-*May - September 2012*
-
-- Baseliner is an iPhone app that keeps a record of singles tennis matches.
-- Add an opponent, score, date, and location to your matches
-- Easily view all your matches against a particular opponent
-- Keep track of your win/loss record against each opponent
-- Share your match scores on Twitter
-- Export a CSV with your match records to Dropbox
 
 ## [BRJPopoverPicker](https://github.com/benrobjoh/BRJPopoverPicker)
 *July 2014*
