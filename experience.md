@@ -6,7 +6,7 @@ sequence: 3
 ---
 
 # The Hershey Company
-**Senior Analyst - iOS Development, Retail Solutions**
+**Senior Analyst - iOS Development**, Retail Solutions  
 Hershey, PA: *April 2020 - present*
 
 - iOS architect for complex enterprise retail execution app used by Hershey sales representatives across the United States and two other countries
